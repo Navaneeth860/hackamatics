@@ -209,11 +209,28 @@ class SimulationEngine:
             for r in self.resource_pool.capacities
         }
 
+        # Operational Throughput & LWBS Metrics
+        sim_duration_hours = max(0.01, sim_duration / 60.0)
+        throughput_per_hour = round(completed_patients / sim_duration_hours, 2)
+
+        lwbs_count = len([p for p in all_processed_patients if getattr(p, "is_lwbs", False) or getattr(p, "status", "") == "LWBS"])
+        lwbs_pct = round((lwbs_count / total_patients) * 100.0, 2) if total_patients > 0 else 0.0
+        completion_rate = round((completed_patients / total_patients) * 100.0, 2) if total_patients > 0 else 0.0
+
+        # Patient count by urgency tier (1 to 5) across entire simulation run
+        patient_counts_by_urgency = {
+            f"tier_{u}": len([p for p in all_processed_patients if p.urgency == u])
+            for u in range(1, 6)
+        }
+
         return {
             "policy": self.policy,
             "total_patients": total_patients,
             "completed_patients": completed_patients,
-            "completion_rate_pct": round((completed_patients / total_patients) * 100.0, 2),
+            "lwbs_count": lwbs_count,
+            "lwbs_pct": lwbs_pct,
+            "completion_rate_pct": completion_rate,
+            "throughput_patients_per_hour": throughput_per_hour,
             "total_simulation_time_mins": round(sim_duration, 2),
             "waiting_metrics": {
                 "avg_wait_mins": round(avg_wait, 2),
@@ -223,7 +240,8 @@ class SimulationEngine:
             },
             "fairness_metrics": {
                 "starvation_ratio": starvation_ratio,
-                "avg_wait_by_urgency_mins": avg_wait_by_urgency
+                "avg_wait_by_urgency_mins": avg_wait_by_urgency,
+                "patient_counts_by_urgency": patient_counts_by_urgency
             },
             "resource_utilization_pct": utilization_pct,
             "resource_capacities": dict(self.resource_pool.capacities)

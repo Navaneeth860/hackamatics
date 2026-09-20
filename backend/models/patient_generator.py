@@ -13,7 +13,9 @@ class SyntheticPatientGenerator:
     with explicit operational simulation assumptions (urgency, ICU, OR, staffing, duration).
     """
 
-    def __init__(self, data_path: str = "data/real/healthcare_analytics_patient_flow_data.csv", seed: int = 42):
+    def __init__(self, data_path: str = "data/real/working_with_age_gender.csv", seed: int = 42):
+        if not os.path.exists(data_path):
+            data_path = "data/real/healthcare_analytics_patient_flow_data.csv"
         self.seed = seed
         self.set_seed(seed)
         self.df_clean, self.stats = load_and_clean_dataset(data_path)
@@ -57,16 +59,25 @@ class SyntheticPatientGenerator:
 
         start_time = sample_df["parsed_datetime"].iloc[0]
 
+        current_arrival = 0.0
         for i in range(n_patients):
             row = sample_df.iloc[i]
             p_id = f"PAT-{i+1:05d}"
             
             # 1. Dataset-Derived Attributes
             dt = row["parsed_datetime"]
-            elapsed_minutes = (dt - start_time).total_seconds() / 60.0
+            if i == 0:
+                current_arrival = 0.0
+            else:
+                prev_dt = sample_df["parsed_datetime"].iloc[i-1]
+                delta_mins = (dt - prev_dt).total_seconds() / 60.0
+                if delta_mins <= 0 or delta_mins > 120.0:
+                    step = float(random.expovariate(1.0 / 12.0))
+                else:
+                    step = max(1.0, delta_mins)
+                current_arrival += step / float(arrival_rate_multiplier)
             
-            # Apply arrival multiplier (higher multiplier -> compressed inter-arrival times -> surge)
-            arrival_time = max(0.0, elapsed_minutes / float(arrival_rate_multiplier))
+            arrival_time = current_arrival
             dt_str = str(dt)
 
             age = int(row["Patient Age"])

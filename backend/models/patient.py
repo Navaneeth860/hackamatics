@@ -32,9 +32,15 @@ class Patient:
     completion_time: Optional[float] = None
     wait_time: float = 0.0
     resources_used: Dict[str, int] = field(default_factory=dict)
-    status: str = "WAITING"             # WAITING, ADMITTED, DISCHARGED
+    status: str = "WAITING"             # WAITING, ADMITTED, DISCHARGED, LWBS
+    
+    # Stage & Operational Metrics
+    time_to_registration: float = 5.0
+    time_to_triage: float = 10.0
+    is_lwbs: bool = False
 
     def to_dict(self) -> dict:
+        time_to_provider = round(self.wait_time, 1) if self.wait_time > 0 else round(self.time_to_triage + 5.0, 1)
         return {
             "patient_id": self.patient_id,
             "arrival_time": round(self.arrival_time, 2),
@@ -55,6 +61,10 @@ class Patient:
             "service_start_time": round(self.service_start_time, 2) if self.service_start_time is not None else None,
             "completion_time": round(self.completion_time, 2) if self.completion_time is not None else None,
             "wait_time": round(self.wait_time, 2),
+            "time_to_registration": round(self.time_to_registration, 1),
+            "time_to_triage": round(self.time_to_triage, 1),
+            "time_to_medical_professional": time_to_provider,
+            "is_lwbs": self.is_lwbs,
             "resources_used": self.resources_used,
             "status": self.status
         }

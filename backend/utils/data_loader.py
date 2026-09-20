@@ -33,14 +33,35 @@ def parse_mixed_dates(date_series, time_series=None, merged_series=None):
     return pd.Series(parsed_dates, index=date_series.index)
 
 
-def load_and_clean_dataset(file_path="data/real/healthcare_analytics_patient_flow_data.csv"):
+def load_and_clean_dataset(file_path="data/real/working_with_age_gender.csv"):
     """
     Loads, cleans, normalizes, and calculates calibration statistics for the dataset.
     """
     if not os.path.exists(file_path):
+        file_path = "data/real/healthcare_analytics_patient_flow_data.csv"
+    if not os.path.exists(file_path):
         raise FileNotFoundError(f"Dataset file not found at path: {file_path}")
 
     df = pd.read_csv(file_path)
+
+    # Normalize column names between legacy (11-col) and working dataset (24-col)
+    if "Age" in df.columns and "Patient Age" not in df.columns:
+        df["Patient Age"] = df["Age"]
+    if "Gender" in df.columns and "Patient Gender" not in df.columns:
+        df["Patient Gender"] = df["Gender"]
+    if "Patient ID" in df.columns and "Patient Id" not in df.columns:
+        df["Patient Id"] = df["Patient ID"]
+    if "Department Referral" not in df.columns:
+        df["Department Referral"] = "General Emergency"
+    if "Patient Admission Flag" not in df.columns:
+        if "Patient Outcome" in df.columns:
+            df["Patient Admission Flag"] = (df["Patient Outcome"] == "Admitted").astype(int)
+        else:
+            df["Patient Admission Flag"] = 1
+    if "Total Wait Time (min)" in df.columns and "Patient Waittime" not in df.columns:
+        df["Patient Waittime"] = df["Total Wait Time (min)"]
+
+    date_col = "Visit Date" if "Visit Date" in df.columns else ("Patient Admission Date" if "Patient Admission Date" in df.columns else df.columns[0])
 
     # Raw calibration stats prior to cleaning
     raw_rows, raw_cols = df.shape
@@ -64,7 +85,7 @@ def load_and_clean_dataset(file_path="data/real/healthcare_analytics_patient_flo
 
     # 3. Robust Mixed-Date Parsing
     df["parsed_datetime"] = parse_mixed_dates(
-        df["Patient Admission Date"],
+        df[date_col],
         df.get("Patient Admission Time"),
         df.get("Merged")
     )

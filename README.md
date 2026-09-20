@@ -57,6 +57,12 @@ $$
 * **Nurses**: 150
 * **Operating Rooms**: 10
 * **Ambulances**: 10
+* **Regular Beds**: 35
+* **ICU Beds**: 6
+* **Doctors**: 12
+* **Nurses**: 20
+* **Operating Rooms**: 3
+* **Ambulances**: 4
 
 The system strictly enforces $U_r(t) \le C_r$ at all times $t$.
 
@@ -196,6 +202,26 @@ Controlled experiments executed on **identical patient streams ($N=300$, $\text{
 | | Urgency | 17,544m | 25,526m | 26,298m | 1.45 | Severe queue blocking behind full ICU beds |
 | | Dynamic | 18,337m | 26,703m | 28,041m | 1.46 | Severe queue blocking behind full ICU beds |
 | | **MEDFLOW** | **4,528m** | **15,335m** | 23,334m | 3.39 | **>3.8x faster average wait vs Dynamic Priority under ICU bottleneck** |
+| **Normal Baseline** | FCFS | 3.0m | 0.0m | 178.9m | 0.00 | Low baseline queue delay |
+| | Urgency | 3.3m | 0.0m | 219.3m | 0.00 | Low-urgency queue priority shift |
+| | Dynamic | 3.2m | 0.0m | 202.4m | 0.00 | Balanced dynamic priority scoring |
+| | **MEDFLOW** | **3.0m** | **0.0m** | 202.4m | 0.00 | **Optimal steady-state throughput** |
+| **Emergency Surge** | FCFS | 22.2m | 184.7m | 476.4m | 8.33 | Frequency surge amplifies queues |
+| | Urgency | 26.7m | 122.7m | 808.2m | 4.60 | High acuity prioritized; low acuity delayed |
+| | Dynamic | 25.3m | 169.8m | 735.1m | 6.71 | Aging dynamic priority balancing |
+| | **MEDFLOW** | **19.3m** | **121.9m** | 762.9m | 6.32 | **Lowest overall average & P95 wait under surge** |
+| **Staff Shortage** | FCFS | 128.7m | 623.5m | 870.7m | 4.85 | Provider staffing bottleneck |
+| | Urgency | 154.4m | 882.6m | 2,264.8m | 5.72 | Low-acuity starvation under staff deficit |
+| | Dynamic | 148.3m | 793.7m | 2,218.7m | 5.35 | Aging mitigates staff shortage starvation |
+| | **MEDFLOW** | **79.5m** | **444.6m** | 2,385.9m | 5.59 | **>38% faster average wait vs FCFS/Urgency** |
+| **ICU Constraint** | FCFS | 8.4m | 10.4m | 522.6m | 1.23 | ICU head-of-line blocking |
+| | Urgency | 11.6m | 55.1m | 522.6m | 4.74 | Severe queue blocking behind full ICU beds |
+| | Dynamic | 10.6m | 16.2m | 522.6m | 1.53 | Aging priority balancing |
+| | **MEDFLOW** | **6.1m** | **0.0m** | 522.6m | 0.00 | **Zero P95 wait by bypassing blocked ICU patients** |
+| **Resource Failure** | FCFS | 4,015.3m | 6,976.3m | 7,410.7m | 1.74 | Compound resource exhaustion |
+| | Urgency | 6,630.7m | 27,972.8m | 31,631.5m | 4.22 | Severe low-acuity queue starvation |
+| | Dynamic | 7,557.6m | 31,875.3m | 36,534.5m | 4.22 | High-acuity dynamic queuing pressure |
+| | **MEDFLOW** | **1,447.2m** | **4,444.3m** | 36,033.2m | 3.07 | **>4.5x faster average wait under compound deficit** |
 
 ---
 
@@ -276,6 +302,21 @@ npm run dev
 ---
 
 ## 18. Limitations & Scope
+## 18. API Specification & Endpoints
+
+| Endpoint | Method | Request Payload / Params | Description |
+| :--- | :--- | :--- | :--- |
+| `/api/status` | `GET` | None | Returns server health, dataset statistics, and baseline capacities. |
+| `/api/ml-metrics` | `GET` | None | Returns MAE, $R^2$, scatter plot samples, and feature importances. |
+| `/api/simulate` | `POST` | `SimulationRequest` JSON | Executes simulation run for scenario, policy, and patient count. |
+| `/api/custom-simulate` | `POST` | `CustomSimulateRequest` JSON | Executes generalized simulation for arbitrary capacity vectors + arrival multipliers. |
+| `/api/same-seed-compare`| `POST` | `SameSeedCompareRequest` JSON | Evaluates all 4 policies on one identical seeded patient stream ($N=300$, $\text{seed}=42$). |
+| `/api/priority-breakdown/{id}` | `GET` | `current_time` (query param) | Exposes individual weighted priority components ($w_u U_i, w_a A(W_i), w_d D_i$) & rationale. |
+| `/api/experiments` | `POST` | `ExperimentRequest` JSON | Executes 5 Scenarios $\times$ 4 Policies controlled experiment matrix. |
+
+---
+
+## 19. Limitations & Scope
 * MEDFLOW is a research simulation prototype for hospital operations modeling.
 * The system evaluates operational trade-offs of scheduling heuristics rather than proving global mathematical optimality.
 * Synthetic clinical acuity fields are assigned via heuristic distributions for simulation modeling.

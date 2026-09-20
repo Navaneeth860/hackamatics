@@ -1,4 +1,5 @@
 import copy
+import os
 from typing import Dict, List, Any
 from backend.models.patient_generator import SyntheticPatientGenerator
 from backend.ml.duration_model import TreatmentDurationPredictor
@@ -10,7 +11,9 @@ class ExperimentRunner:
     Strictly enforces experimental control: Identical patient streams, seeds, and durations across policy runs.
     """
 
-    def __init__(self, data_path: str = "data/real/healthcare_analytics_patient_flow_data.csv", seed: int = 42):
+    def __init__(self, data_path: str = "data/real/working_with_age_gender.csv", seed: int = 42):
+        if not os.path.exists(data_path):
+            data_path = "data/real/healthcare_analytics_patient_flow_data.csv"
         self.data_path = data_path
         self.seed = seed
         self.generator = SyntheticPatientGenerator(data_path=data_path, seed=seed)
@@ -18,53 +21,62 @@ class ExperimentRunner:
 
     def define_scenarios(self) -> Dict[str, Dict[str, Any]]:
         """Defines operational hospital scenarios for policy comparison."""
-        return {
-            "Normal": {
+        base_caps = {
+            "regular_beds": 120,
+            "icu_beds": 20,
+            "doctors": 35,
+            "nurses": 80,
+            "operating_rooms": 6,
+            "ambulances": 6
+        }
+        scenarios = {
+            "Normal Baseline": {
                 "description": "Baseline operational capacity under steady-state patient demand",
-                "arrival_rate_multiplier": 8.0,
-                "capacities": {
-                    "regular_beds": 35,
-                    "icu_beds": 6,
-                    "doctors": 12,
-                    "nurses": 20,
-                    "operating_rooms": 3,
-                    "ambulances": 4
-                }
+                "arrival_rate_multiplier": 2.5,
+                "capacities": base_caps
             },
-            "Patient Surge": {
-                "description": "Emergency surge: 15.0x arrival rate multiplier creating severe bed & staff competition",
-                "arrival_rate_multiplier": 15.0,
-                "capacities": {
-                    "regular_beds": 35,
-                    "icu_beds": 6,
-                    "doctors": 12,
-                    "nurses": 20,
-                    "operating_rooms": 3,
-                    "ambulances": 4
-                }
+            "Emergency Surge": {
+                "description": "Emergency surge: 5.0x arrival rate multiplier creating severe bed & staff competition",
+                "arrival_rate_multiplier": 5.0,
+                "capacities": base_caps
             },
-            "ICU Shortage": {
-                "description": "Critical ICU bottleneck: ICU bed capacity reduced from 6 beds down to 2 beds",
-                "arrival_rate_multiplier": 8.0,
+            "Staff Shortage": {
+                "description": "Severe staff deficit (-50% MD/RN capacity) creating provider bottlenecks",
+                "arrival_rate_multiplier": 2.5,
+                "capacities": {**base_caps, "doctors": 17, "nurses": 40}
+            },
+            "ICU Constraint": {
+                "description": "Critical ICU bottleneck: ICU bed capacity reduced from 20 down to 4 beds",
+                "arrival_rate_multiplier": 2.5,
+                "capacities": {**base_caps, "icu_beds": 4}
+            },
+            "Resource Failure": {
+                "description": "Multi-resource critical deficit: reduced beds, ICU, doctors, nurses",
+                "arrival_rate_multiplier": 4.0,
                 "capacities": {
-                    "regular_beds": 35,
-                    "icu_beds": 2,           # ICU Bottleneck
-                    "doctors": 12,
-                    "nurses": 20,
-                    "operating_rooms": 3,
-                    "ambulances": 4
+                    "regular_beds": 60,
+                    "icu_beds": 5,
+                    "doctors": 15,
+                    "nurses": 30,
+                    "operating_rooms": 2,
+                    "ambulances": 2
                 }
             }
         }
+        # Add legacy aliases
+        scenarios["Normal"] = scenarios["Normal Baseline"]
+        scenarios["Patient Surge"] = scenarios["Emergency Surge"]
+        scenarios["ICU Shortage"] = scenarios["ICU Constraint"]
+        return scenarios
 
     def run_experiments(
         self,
-        n_patients: int = 500,
+        n_patients: int = 300,
         policies: List[str] = ["FCFS", "URGENCY", "DYNAMIC", "MEDFLOW"],
         use_ml_duration: bool = True
     ) -> Dict[str, Any]:
         """
-        Executes grid of 3 Scenarios x 4 Policies on identical resampled patient streams.
+        Executes grid of Scenarios x 4 Policies on identical resampled patient streams.
         """
         scenarios = self.define_scenarios()
         results: Dict[str, Dict[str, Any]] = {}
@@ -73,13 +85,17 @@ class ExperimentRunner:
         base_patients = self.generator.generate_patients(n_patients=n_patients, arrival_rate_multiplier=1.0)
         ml_metrics = self.predictor.train(base_patients)
 
-        for scenario_name, scenario_cfg in scenarios.items():
+        primary_scenarios = ["Normal Baseline", "Emergency Surge", "Staff Shortage", "ICU Constraint", "Resource Failure"]
+
+        for scenario_name in primary_scenarios:
+            scenario_cfg = scenarios[scenario_name]
             results[scenario_name] = {}
             mult = scenario_cfg["arrival_rate_multiplier"]
             caps = scenario_cfg["capacities"]
 
             # Generate identical patient stream for this scenario (same seed)
-            scenario_patients = self.generator.generate_patients(
+            p_gen = SyntheticPatientGenerator(data_path=self.data_path, seed=self.seed)
+            scenario_patients = p_gen.generate_patients(
                 n_patients=n_patients,
                 arrival_rate_multiplier=mult
             )
@@ -88,7 +104,6 @@ class ExperimentRunner:
                 scenario_patients = self.predictor.predict_and_attach(scenario_patients)
 
             for policy in policies:
-                # Isolate patient stream per policy run
                 stream_copy = copy.deepcopy(scenario_patients)
                 engine = SimulationEngine(
                     patients=stream_copy,
@@ -99,6 +114,11 @@ class ExperimentRunner:
                 kpis = engine.run()
                 results[scenario_name][policy] = kpis
 
+        # Include legacy keys for backward test compatibility
+        results["Normal"] = results["Normal Baseline"]
+        results["Patient Surge"] = results["Emergency Surge"]
+        results["ICU Shortage"] = results["ICU Constraint"]
+
         return {
             "ml_metrics": ml_metrics,
             "seed": self.seed,
@@ -106,15 +126,7 @@ class ExperimentRunner:
             "results": results
         }
 
-
 if __name__ == "__main__":
     runner = ExperimentRunner(seed=42)
     exp_output = runner.run_experiments(n_patients=300)
     print("Experiments Completed Successfully!")
-    print(f"ML Metrics: {exp_output['ml_metrics']}")
-    print("\nScenario Results Summary:")
-    for sc_name, pol_dict in exp_output["results"].items():
-        print(f"\n--- {sc_name} ---")
-        for pol, kpis in pol_dict.items():
-            w = kpis["waiting_metrics"]
-            print(f"  {pol:8s} | Avg Wait: {w['avg_wait_mins']:6.2f}m | P95 Wait: {w['p95_wait_mins']:6.2f}m | Max Wait: {w['max_wait_mins']:6.2f}m | Starv Ratio: {kpis['fairness_metrics']['starvation_ratio']}")

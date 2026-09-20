@@ -1,0 +1,398 @@
+Visit ID,Patient ID,Age,Gender,Hospital ID,Hospital Name,Region,Visit Date,Day of Week,Season,Time of Day,Arrival Hour,Weekend,Urgency Level,Urgency Score,Nurse-to-Patient Ratio,Specialist Availability,Facility Size (Beds),Time to Registration (min),Time to Triage (min),Time to Medical Professional (min),Total Wait Time (min),Patient Outcome,Patient Satisfaction
+HOSP-1-20240210-0001,PAT-00001,30,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-10 20:20:56,Saturday,Winter,Evening,20,TRUE,Medium,2,4,3,92,17,22,66,105,Discharged,1
+HOSP-1-20240306-0002,PAT-00005,33,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-06 16:52:26,Wednesday,Spring,Afternoon,16,FALSE,Low,1,4,8,74,26,29,63,118,Discharged,1
+HOSP-1-20241129-0003,PAT-00009,71,Male,HOSP-1,Springfield General Hospital,Urban,2024-11-29 2:47:33,Friday,Fall,Night,2,FALSE,Medium,2,4,3,87,16,27,35,78,Discharged,2
+HOSP-1-20240727-0004,PAT-00010,81,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-27 22:01:14,Saturday,Summer,Night,22,TRUE,Critical,4,1,4,99,3,3,5,11,Admitted,5
+HOSP-1-20240708-0005,PAT-00012,27,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-08 10:32:00,Monday,Summer,Late Morning,10,FALSE,Medium,2,4,4,53,25,28,70,123,Discharged,1
+HOSP-1-20240107-0006,PAT-00013,43,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-07 8:44:21,Sunday,Winter,Early Morning,8,TRUE,Low,1,5,1,168,24,69,115,208,Discharged,1
+HOSP-1-20240428-0007,PAT-00019,18,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-28 21:02:53,Sunday,Spring,Night,21,TRUE,High,3,3,5,126,2,7,14,23,Discharged,4
+HOSP-1-20240105-0008,PAT-00025,63,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-05 1:08:14,Friday,Winter,Night,1,FALSE,Medium,2,4,5,93,10,19,42,71,Admitted,3
+HOSP-1-20240528-0009,PAT-00026,64,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-28 23:18:38,Tuesday,Spring,Night,23,FALSE,Critical,4,2,8,194,3,6,24,33,Discharged,4
+HOSP-1-20240530-0010,PAT-00031,80,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-30 15:04:49,Thursday,Spring,Afternoon,15,FALSE,High,3,3,6,91,8,14,27,49,Admitted,3
+HOSP-1-20241022-0011,PAT-00045,50,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-22 2:13:37,Tuesday,Fall,Night,2,FALSE,Critical,4,1,7,142,0,3,7,10,Discharged,5
+HOSP-1-20240923-0012,PAT-00050,87,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-23 10:26:04,Monday,Fall,Late Morning,10,FALSE,High,3,4,10,93,3,5,14,22,Admitted,4
+HOSP-1-20240128-0013,PAT-00052,18,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-28 9:04:05,Sunday,Winter,Late Morning,9,TRUE,High,3,4,2,169,8,11,24,43,Admitted,4
+HOSP-1-20241207-0014,PAT-00055,26,Male,HOSP-1,Springfield General Hospital,Urban,2024-12-07 1:05:21,Saturday,Winter,Night,1,TRUE,Medium,2,4,7,68,11,36,75,122,Discharged,1
+HOSP-1-20240105-0015,PAT-00056,42,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-05 15:31:07,Friday,Winter,Afternoon,15,FALSE,High,3,4,5,87,8,10,34,52,Discharged,3
+HOSP-1-20240112-0016,PAT-00057,34,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-12 10:45:18,Friday,Winter,Late Morning,10,FALSE,Medium,2,4,9,88,15,28,46,89,Admitted,2
+HOSP-1-20240226-0017,PAT-00059,31,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-26 14:05:08,Monday,Winter,Afternoon,14,FALSE,High,3,3,2,168,9,18,37,64,Admitted,3
+HOSP-1-20241221-0018,PAT-00060,37,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-21 13:26:40,Saturday,Winter,Afternoon,13,TRUE,Medium,2,4,8,144,28,39,58,125,Left Without Being Seen,1
+HOSP-1-20240818-0019,PAT-00063,18,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-18 2:42:12,Sunday,Summer,Night,2,TRUE,High,3,3,5,51,4,12,38,54,Admitted,3
+HOSP-1-20240304-0020,PAT-00067,90,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-04 4:41:49,Monday,Spring,Night,4,FALSE,Critical,4,2,6,90,3,3,16,22,Discharged,4
+HOSP-1-20241121-0021,PAT-00079,27,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-21 0:11:56,Thursday,Fall,Night,0,FALSE,High,3,3,4,93,3,8,12,23,Admitted,4
+HOSP-1-20240805-0022,PAT-00082,30,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-05 7:51:22,Monday,Summer,Early Morning,7,FALSE,Low,1,4,4,137,27,44,87,158,Discharged,1
+HOSP-1-20240704-0023,PAT-00086,55,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-04 2:59:28,Thursday,Summer,Night,2,FALSE,Low,1,4,6,128,18,80,118,216,Left Without Being Seen,1
+HOSP-1-20240809-0024,PAT-00088,21,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-09 8:31:50,Friday,Summer,Early Morning,8,FALSE,Low,1,5,4,57,38,56,127,221,Discharged,1
+HOSP-1-20240307-0025,PAT-00089,63,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-07 16:57:43,Thursday,Spring,Afternoon,16,FALSE,Low,1,5,8,61,26,51,52,129,Left Without Being Seen,1
+HOSP-1-20240622-0026,PAT-00090,76,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-22 12:13:40,Saturday,Summer,Afternoon,12,TRUE,Low,1,5,1,184,16,42,72,130,Discharged,1
+HOSP-1-20240810-0027,PAT-00091,27,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-10 13:26:40,Saturday,Summer,Afternoon,13,TRUE,Medium,2,3,7,160,9,18,58,85,Admitted,2
+HOSP-1-20240904-0028,PAT-00101,32,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-04 4:44:17,Wednesday,Fall,Night,4,FALSE,Low,1,5,10,120,16,82,72,170,Left Without Being Seen,1
+HOSP-1-20240326-0029,PAT-00109,18,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-26 5:12:17,Tuesday,Spring,Early Morning,5,FALSE,Medium,2,3,9,178,23,27,46,96,Admitted,1
+HOSP-1-20240501-0030,PAT-00116,25,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-01 22:04:37,Wednesday,Spring,Night,22,FALSE,High,3,4,4,80,8,8,32,48,Discharged,4
+HOSP-1-20240628-0031,PAT-00120,18,Female,HOSP-1,Springfield General Hospital,Urban,2024-06-28 11:02:28,Friday,Summer,Late Morning,11,FALSE,Medium,2,4,5,140,32,32,54,118,Discharged,1
+HOSP-1-20241021-0032,PAT-00125,65,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-21 23:28:15,Monday,Fall,Night,23,FALSE,Medium,2,3,1,174,6,20,37,63,Discharged,3
+HOSP-1-20240920-0033,PAT-00130,68,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-20 1:05:32,Friday,Fall,Night,1,FALSE,Critical,4,2,7,161,1,2,14,17,Admitted,5
+HOSP-1-20240704-0034,PAT-00131,65,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-04 5:42:55,Thursday,Summer,Early Morning,5,FALSE,Medium,2,4,6,171,7,18,65,90,Discharged,2
+HOSP-1-20241009-0035,PAT-00133,40,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-09 22:48:35,Wednesday,Fall,Night,22,FALSE,Low,1,4,4,93,21,45,82,148,Left Without Being Seen,1
+HOSP-1-20240201-0036,PAT-00134,29,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-01 0:06:45,Thursday,Winter,Night,0,FALSE,Critical,4,2,9,129,6,8,10,24,Admitted,4
+HOSP-1-20240717-0037,PAT-00138,45,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-17 3:06:02,Wednesday,Summer,Night,3,FALSE,Medium,2,3,1,78,18,21,52,91,Admitted,2
+HOSP-1-20241219-0038,PAT-00148,52,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-19 2:52:31,Thursday,Winter,Night,2,FALSE,Low,1,4,1,151,44,121,111,276,Discharged,1
+HOSP-1-20240814-0039,PAT-00156,19,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-14 5:29:28,Wednesday,Summer,Early Morning,5,FALSE,High,3,3,10,130,7,13,26,46,Discharged,3
+HOSP-1-20241225-0040,PAT-00158,70,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-25 13:28:12,Wednesday,Winter,Afternoon,13,FALSE,Critical,4,1,3,117,4,5,12,21,Admitted,4
+HOSP-1-20240618-0041,PAT-00162,52,Female,HOSP-1,Springfield General Hospital,Urban,2024-06-18 10:52:22,Tuesday,Summer,Late Morning,10,FALSE,Low,1,5,1,168,24,53,104,181,Discharged,1
+HOSP-1-20240301-0042,PAT-00163,71,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-01 19:39:11,Friday,Spring,Evening,19,FALSE,High,3,3,6,171,2,5,16,23,Admitted,5
+HOSP-1-20240520-0043,PAT-00167,51,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-20 11:48:45,Monday,Spring,Late Morning,11,FALSE,High,3,4,2,190,11,18,46,75,Admitted,2
+HOSP-1-20241215-0044,PAT-00169,65,Male,HOSP-1,Springfield General Hospital,Urban,2024-12-15 3:27:52,Sunday,Winter,Night,3,TRUE,Medium,2,3,10,56,9,20,56,85,Admitted,2
+HOSP-1-20240805-0045,PAT-00170,60,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-05 11:34:32,Monday,Summer,Late Morning,11,FALSE,Critical,4,2,7,112,2,10,25,37,Discharged,4
+HOSP-1-20240630-0046,PAT-00172,38,Female,HOSP-1,Springfield General Hospital,Urban,2024-06-30 3:16:16,Sunday,Summer,Night,3,TRUE,Low,1,5,7,196,22,52,57,131,Discharged,1
+HOSP-1-20240613-0047,PAT-00177,41,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-13 10:27:29,Thursday,Summer,Late Morning,10,FALSE,Critical,4,2,6,193,2,2,17,21,Discharged,4
+HOSP-1-20240507-0048,PAT-00178,50,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-07 22:26:35,Tuesday,Spring,Night,22,FALSE,High,3,3,1,197,3,7,19,29,Admitted,4
+HOSP-1-20241127-0049,PAT-00186,46,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-27 10:40:54,Wednesday,Fall,Late Morning,10,FALSE,High,3,4,3,105,5,6,24,35,Admitted,4
+HOSP-1-20240129-0050,PAT-00187,36,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-29 10:40:28,Monday,Winter,Late Morning,10,FALSE,Critical,4,1,8,53,4,10,10,24,Discharged,4
+HOSP-1-20240104-0051,PAT-00193,25,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-04 14:45:11,Thursday,Winter,Afternoon,14,FALSE,Low,1,5,8,139,32,114,107,253,Discharged,1
+HOSP-1-20241009-0052,PAT-00194,62,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-09 11:31:24,Wednesday,Fall,Late Morning,11,FALSE,Low,1,4,2,199,30,66,93,189,Discharged,1
+HOSP-1-20240917-0053,PAT-00196,23,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-17 1:36:32,Tuesday,Fall,Night,1,FALSE,Critical,4,1,1,184,0,2,11,13,Admitted,5
+HOSP-1-20240301-0054,PAT-00197,43,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-01 11:24:00,Friday,Spring,Late Morning,11,FALSE,Critical,4,1,4,191,4,4,9,17,Discharged,5
+HOSP-1-20240805-0055,PAT-00208,60,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-05 18:12:12,Monday,Summer,Evening,18,FALSE,Medium,2,4,8,170,19,23,74,116,Admitted,1
+HOSP-1-20240218-0056,PAT-00209,37,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-18 12:19:31,Sunday,Winter,Afternoon,12,TRUE,Critical,4,2,7,168,1,8,9,18,Admitted,4
+HOSP-1-20241210-0057,PAT-00214,50,Male,HOSP-1,Springfield General Hospital,Urban,2024-12-10 9:14:40,Tuesday,Winter,Late Morning,9,FALSE,Low,1,4,3,143,36,54,89,179,Discharged,1
+HOSP-1-20241027-0058,PAT-00217,54,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-27 8:51:18,Sunday,Fall,Early Morning,8,TRUE,Low,1,4,6,79,15,49,64,128,Discharged,1
+HOSP-1-20240929-0059,PAT-00218,44,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-29 10:16:16,Sunday,Fall,Late Morning,10,TRUE,Low,1,5,9,103,21,37,82,140,Discharged,1
+HOSP-1-20240219-0060,PAT-00222,71,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-19 11:38:00,Monday,Winter,Late Morning,11,FALSE,Medium,2,4,3,103,31,26,120,177,Discharged,1
+HOSP-1-20240413-0061,PAT-00223,55,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-13 6:09:00,Saturday,Spring,Early Morning,6,TRUE,High,3,4,3,87,5,9,19,33,Admitted,4
+HOSP-1-20240503-0062,PAT-00228,69,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-03 22:42:14,Friday,Spring,Night,22,FALSE,Critical,4,2,9,125,4,8,19,31,Discharged,4
+HOSP-1-20240708-0063,PAT-00237,57,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-08 1:03:20,Monday,Summer,Night,1,FALSE,High,3,4,4,82,11,28,72,111,Discharged,1
+HOSP-1-20240323-0064,PAT-00243,25,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-23 2:52:38,Saturday,Spring,Night,2,TRUE,High,3,3,3,108,6,9,32,47,Admitted,3
+HOSP-1-20240218-0065,PAT-00246,53,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-18 1:49:23,Sunday,Winter,Night,1,TRUE,Medium,2,3,1,53,17,35,69,121,Left Without Being Seen,1
+HOSP-1-20240625-0066,PAT-00248,31,Female,HOSP-1,Springfield General Hospital,Urban,2024-06-25 1:14:30,Tuesday,Summer,Night,1,FALSE,High,3,4,6,120,7,9,18,34,Admitted,4
+HOSP-1-20240915-0067,PAT-00250,50,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-15 4:28:30,Sunday,Fall,Night,4,TRUE,Critical,4,2,10,199,0,3,7,10,Admitted,4
+HOSP-1-20240128-0068,PAT-00252,60,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-28 7:50:51,Sunday,Winter,Early Morning,7,TRUE,Critical,4,2,10,107,4,5,21,30,Admitted,4
+HOSP-1-20240930-0069,PAT-00262,58,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-30 13:37:58,Monday,Fall,Afternoon,13,FALSE,High,3,3,3,60,5,10,32,47,Admitted,3
+HOSP-1-20240615-0070,PAT-00266,74,Female,HOSP-1,Springfield General Hospital,Urban,2024-06-15 15:33:31,Saturday,Summer,Afternoon,15,TRUE,High,3,3,5,68,4,11,26,41,Discharged,3
+HOSP-1-20240919-0071,PAT-00270,60,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-19 6:01:15,Thursday,Fall,Early Morning,6,FALSE,Critical,4,1,10,155,0,4,8,12,Admitted,4
+HOSP-1-20240308-0072,PAT-00282,41,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-08 23:02:18,Friday,Spring,Night,23,FALSE,Medium,2,3,2,77,18,18,53,89,Admitted,2
+HOSP-1-20241113-0073,PAT-00283,70,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-13 21:27:24,Wednesday,Fall,Night,21,FALSE,Low,1,5,7,156,22,38,50,110,Admitted,1
+HOSP-1-20240122-0074,PAT-00286,30,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-22 0:33:35,Monday,Winter,Night,0,FALSE,Critical,4,2,8,136,7,13,21,41,Discharged,4
+HOSP-1-20240229-0075,PAT-00289,75,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-29 22:52:36,Thursday,Winter,Night,22,FALSE,Critical,4,2,8,109,3,5,19,27,Admitted,4
+HOSP-1-20241117-0076,PAT-00301,49,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-17 18:46:34,Sunday,Fall,Evening,18,TRUE,High,3,4,8,173,5,10,25,40,Discharged,4
+HOSP-1-20240922-0077,PAT-00304,18,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-22 20:15:51,Sunday,Fall,Evening,20,TRUE,Critical,4,1,2,177,0,1,4,5,Admitted,5
+HOSP-1-20240825-0078,PAT-00310,18,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-25 16:16:06,Sunday,Summer,Afternoon,16,TRUE,High,3,3,9,136,3,5,18,26,Discharged,4
+HOSP-1-20240204-0079,PAT-00313,70,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-04 18:07:19,Sunday,Winter,Evening,18,TRUE,Critical,4,1,1,196,1,3,11,15,Discharged,4
+HOSP-1-20240705-0080,PAT-00314,44,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-05 7:20:40,Friday,Summer,Early Morning,7,FALSE,Critical,4,2,3,139,1,5,16,22,Discharged,4
+HOSP-1-20240508-0081,PAT-00321,25,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-08 22:42:43,Wednesday,Spring,Night,22,FALSE,Critical,4,2,4,131,1,5,14,20,Admitted,5
+HOSP-1-20240831-0082,PAT-00324,30,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-31 23:35:29,Saturday,Summer,Night,23,TRUE,High,3,4,2,121,4,14,38,56,Admitted,3
+HOSP-1-20240208-0083,PAT-00326,61,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-08 5:32:45,Thursday,Winter,Early Morning,5,FALSE,High,3,4,10,100,10,19,49,78,Admitted,2
+HOSP-1-20240608-0084,PAT-00329,63,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-08 2:02:17,Saturday,Summer,Night,2,TRUE,High,3,4,2,156,7,11,46,64,Discharged,2
+HOSP-1-20240901-0085,PAT-00342,57,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-01 14:03:27,Sunday,Fall,Afternoon,14,TRUE,High,3,3,3,95,2,4,8,14,Admitted,5
+HOSP-1-20240930-0086,PAT-00343,63,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-30 13:39:18,Monday,Fall,Afternoon,13,FALSE,Low,1,4,4,102,15,45,89,149,Discharged,1
+HOSP-1-20241116-0087,PAT-00344,63,Male,HOSP-1,Springfield General Hospital,Urban,2024-11-16 20:07:31,Saturday,Fall,Evening,20,TRUE,Critical,4,2,2,88,1,2,8,11,Admitted,4
+HOSP-1-20240330-0088,PAT-00346,53,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-30 19:40:44,Saturday,Spring,Evening,19,TRUE,Low,1,5,1,82,22,38,77,137,Left Without Being Seen,1
+HOSP-1-20240909-0089,PAT-00349,37,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-09 17:51:57,Monday,Fall,Evening,17,FALSE,High,3,4,1,165,5,12,22,39,Discharged,4
+HOSP-1-20240831-0090,PAT-00352,85,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-31 6:11:16,Saturday,Summer,Early Morning,6,TRUE,Critical,4,1,4,200,1,4,15,20,Discharged,5
+HOSP-1-20240528-0091,PAT-00353,62,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-28 13:13:25,Tuesday,Spring,Afternoon,13,FALSE,High,3,4,7,184,5,6,14,25,Admitted,5
+HOSP-1-20240209-0092,PAT-00363,59,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-09 6:21:16,Friday,Winter,Early Morning,6,FALSE,Critical,4,2,6,84,2,10,20,32,Discharged,4
+HOSP-1-20240202-0093,PAT-00366,28,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-02 3:02:59,Friday,Winter,Night,3,FALSE,Medium,2,3,2,144,26,28,77,131,Discharged,1
+HOSP-1-20241028-0094,PAT-00367,65,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-28 2:48:34,Monday,Fall,Night,2,FALSE,Medium,2,4,1,139,17,35,76,128,Discharged,1
+HOSP-1-20241206-0095,PAT-00369,37,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-06 10:28:49,Friday,Winter,Late Morning,10,FALSE,High,3,3,1,75,7,12,27,46,Discharged,4
+HOSP-1-20241016-0096,PAT-00379,73,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-16 11:12:57,Wednesday,Fall,Late Morning,11,FALSE,Critical,4,2,4,68,1,1,11,13,Admitted,5
+HOSP-1-20241008-0097,PAT-00381,59,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-08 2:52:51,Tuesday,Fall,Night,2,FALSE,Low,1,5,7,61,21,83,99,203,Discharged,1
+HOSP-1-20240924-0098,PAT-00383,50,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-24 23:11:57,Tuesday,Fall,Night,23,FALSE,High,3,4,9,197,5,13,24,42,Admitted,4
+HOSP-1-20240816-0099,PAT-00391,35,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-16 10:01:55,Friday,Summer,Late Morning,10,FALSE,High,3,4,1,90,8,17,49,74,Admitted,2
+HOSP-1-20240217-0100,PAT-00395,50,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-17 8:33:13,Saturday,Winter,Early Morning,8,TRUE,Medium,2,4,5,180,15,17,24,56,Admitted,3
+
+HOSP-1-20240816-0099,PAT-0391,35,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-16 10:01:55,Friday,Summer,Late Morning,10,FALSE,High,3,4,1,90,8,17,49,74,Admitted,2
+HOSP-1-20240217-0100,PAT-0395,50,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-17 8:33:13,Saturday,Winter,Early Morning,8,TRUE,Medium,2,4,5,180,15,17,24,56,Admitted,3
+HOSP-1-20240411-0101,PAT-0400,50,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-11 7:30:36,Thursday,Spring,Early Morning,7,FALSE,Low,1,4,8,111,11,39,48,98,Admitted,1
+HOSP-1-20240412-0102,PAT-0401,32,Male,HOSP-1,Springfield General Hospital,Urban,2024-04-12 15:15:46,Friday,Spring,Afternoon,15,FALSE,High,3,3,5,117,4,11,28,43,Admitted,3
+HOSP-1-20240827-0103,PAT-0402,50,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-27 23:27:30,Tuesday,Summer,Night,23,FALSE,High,3,3,9,109,5,7,11,23,Admitted,5
+HOSP-1-20240917-0104,PAT-0408,68,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-17 14:18:51,Tuesday,Fall,Afternoon,14,FALSE,High,3,3,2,129,3,5,12,20,Discharged,4
+HOSP-1-20241023-0105,PAT-0409,72,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-23 1:27:02,Wednesday,Fall,Night,1,FALSE,Medium,2,4,3,97,15,22,34,71,Discharged,2
+HOSP-1-20240503-0106,PAT-0412,76,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-03 2:18:23,Friday,Spring,Night,2,FALSE,Low,1,4,4,107,27,68,92,187,Left Without Being Seen,1
+HOSP-1-20240902-0107,PAT-0417,58,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-02 22:38:27,Monday,Fall,Night,22,FALSE,High,3,4,3,60,6,19,29,54,Admitted,3
+HOSP-1-20240704-0108,PAT-0425,42,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-04 15:34:46,Thursday,Summer,Afternoon,15,FALSE,Critical,4,1,9,70,0,3,12,15,Admitted,4
+HOSP-1-20240719-0109,PAT-0429,47,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-19 11:11:43,Friday,Summer,Late Morning,11,FALSE,Critical,4,2,6,172,1,6,12,19,Admitted,4
+HOSP-1-20240210-0110,PAT-0431,69,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-10 13:12:59,Saturday,Winter,Afternoon,13,TRUE,Medium,2,3,2,155,15,18,34,67,Discharged,2
+HOSP-1-20241122-0111,PAT-0438,30,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-22 0:34:55,Friday,Fall,Night,0,FALSE,Medium,2,4,6,110,10,24,40,74,Discharged,2
+HOSP-1-20241215-0112,PAT-0439,36,Male,HOSP-1,Springfield General Hospital,Urban,2024-12-15 3:57:23,Sunday,Winter,Night,3,TRUE,Low,1,5,2,58,17,48,66,131,Discharged,1
+HOSP-1-20241004-0113,PAT-0440,53,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-04 2:56:33,Friday,Fall,Night,2,FALSE,Low,1,5,1,84,17,37,73,127,Left Without Being Seen,1
+HOSP-1-20240402-0114,PAT-0449,65,Male,HOSP-1,Springfield General Hospital,Urban,2024-04-02 18:50:06,Tuesday,Spring,Evening,18,FALSE,Medium,2,3,8,71,20,39,58,117,Discharged,1
+HOSP-1-20241020-0115,PAT-0453,51,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-20 12:33:19,Sunday,Fall,Afternoon,12,TRUE,Medium,2,4,1,196,11,21,41,73,Discharged,3
+HOSP-1-20240928-0116,PAT-0455,23,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-28 16:26:09,Saturday,Fall,Afternoon,16,TRUE,High,3,3,6,78,3,7,10,20,Discharged,5
+HOSP-1-20240701-0117,PAT-0471,46,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-01 12:30:04,Monday,Summer,Afternoon,12,FALSE,Critical,4,2,4,63,1,4,16,21,Admitted,4
+HOSP-1-20241030-0118,PAT-0472,50,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-30 2:28:17,Wednesday,Fall,Night,2,FALSE,Low,1,5,8,188,16,49,82,147,Discharged,1
+HOSP-1-20240809-0119,PAT-0473,18,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-09 15:08:25,Friday,Summer,Afternoon,15,FALSE,High,3,4,2,183,10,20,49,79,Discharged,2
+HOSP-1-20240206-0120,PAT-0479,43,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-06 18:15:18,Tuesday,Winter,Evening,18,FALSE,Critical,4,2,5,138,3,4,20,27,Admitted,4
+HOSP-1-20240803-0121,PAT-0480,18,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-03 4:36:15,Saturday,Summer,Night,4,TRUE,Medium,2,3,10,165,9,37,70,116,Admitted,1
+HOSP-1-20240121-0122,PAT-0488,41,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-21 15:52:30,Sunday,Winter,Afternoon,15,TRUE,Low,1,5,7,82,31,73,102,206,Left Without Being Seen,1
+HOSP-1-20240308-0123,PAT-0492,68,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-08 12:27:49,Friday,Spring,Afternoon,12,FALSE,High,3,3,8,90,7,17,24,48,Admitted,3
+HOSP-1-20240215-0124,PAT-0494,64,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-15 17:27:22,Thursday,Winter,Evening,17,FALSE,High,3,3,8,152,7,7,24,38,Discharged,4
+HOSP-1-20240831-0125,PAT-0496,76,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-31 7:07:22,Saturday,Summer,Early Morning,7,TRUE,Medium,2,4,7,154,22,16,39,77,Discharged,3
+HOSP-1-20240913-0126,PAT-0501,69,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-13 21:35:19,Friday,Fall,Night,21,FALSE,Critical,4,2,8,146,2,4,6,12,Discharged,4
+HOSP-1-20241027-0127,PAT-0506,74,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-27 12:16:38,Sunday,Fall,Afternoon,12,TRUE,Medium,2,4,9,168,10,27,40,77,Admitted,2
+HOSP-1-20241108-0128,PAT-0507,69,Male,HOSP-1,Springfield General Hospital,Urban,2024-11-08 16:18:07,Friday,Fall,Afternoon,16,FALSE,Low,1,5,9,86,14,32,76,122,Left Without Being Seen,1
+HOSP-1-20240801-0129,PAT-0531,50,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-01 11:26:11,Thursday,Summer,Late Morning,11,FALSE,Medium,2,4,2,51,19,35,98,152,Left Without Being Seen,1
+HOSP-1-20240610-0130,PAT-0536,38,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-10 5:16:10,Monday,Summer,Early Morning,5,FALSE,High,3,4,1,193,11,13,48,72,Admitted,3
+HOSP-1-20240912-0131,PAT-0545,18,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-12 17:26:26,Thursday,Fall,Evening,17,FALSE,Medium,2,3,1,90,6,24,38,68,Discharged,2
+HOSP-1-20240526-0132,PAT-0547,74,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-26 1:22:44,Sunday,Spring,Night,1,TRUE,High,3,4,4,96,5,6,14,25,Admitted,4
+HOSP-1-20240524-0133,PAT-0548,77,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-24 3:38:04,Friday,Spring,Night,3,FALSE,Low,1,4,2,106,16,76,84,176,Discharged,1
+HOSP-1-20240716-0134,PAT-0550,42,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-16 8:55:22,Tuesday,Summer,Early Morning,8,FALSE,Medium,2,4,8,169,27,25,96,148,Discharged,1
+HOSP-1-20240627-0135,PAT-0551,73,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-27 13:09:35,Thursday,Summer,Afternoon,13,FALSE,Low,1,4,1,58,21,25,71,117,Admitted,1
+HOSP-1-20240516-0136,PAT-0552,57,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-16 1:28:29,Thursday,Spring,Night,1,FALSE,High,3,3,1,110,8,8,22,38,Admitted,3
+HOSP-1-20240505-0137,PAT-0553,78,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-05 2:01:26,Sunday,Spring,Night,2,TRUE,Low,1,4,8,136,14,17,60,91,Admitted,2
+HOSP-1-20240621-0138,PAT-0558,44,Female,HOSP-1,Springfield General Hospital,Urban,2024-06-21 9:08:28,Friday,Summer,Late Morning,9,FALSE,High,3,3,4,139,8,12,46,66,Admitted,3
+HOSP-1-20241109-0139,PAT-0559,36,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-09 7:45:18,Saturday,Fall,Early Morning,7,TRUE,Medium,2,4,10,55,14,32,64,110,Discharged,2
+HOSP-1-20240628-0140,PAT-0565,54,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-28 11:06:34,Friday,Summer,Late Morning,11,FALSE,High,3,4,9,176,5,10,33,48,Discharged,4
+HOSP-1-20240728-0141,PAT-0570,52,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-28 14:50:48,Sunday,Summer,Afternoon,14,TRUE,Low,1,4,10,101,23,33,84,140,Left Without Being Seen,1
+HOSP-1-20241011-0142,PAT-0572,19,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-11 21:44:14,Friday,Fall,Night,21,FALSE,Medium,2,4,8,198,28,38,82,148,Discharged,1
+HOSP-1-20240209-0143,PAT-0573,24,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-09 7:05:27,Friday,Winter,Early Morning,7,FALSE,Medium,2,4,4,142,31,45,47,123,Discharged,1
+HOSP-1-20240426-0144,PAT-0576,51,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-26 7:21:56,Friday,Spring,Early Morning,7,FALSE,Medium,2,3,10,108,20,22,50,92,Discharged,2
+HOSP-1-20240929-0145,PAT-0578,57,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-29 5:32:26,Sunday,Fall,Early Morning,5,TRUE,Low,1,4,5,73,13,28,47,88,Admitted,2
+HOSP-1-20240913-0146,PAT-0579,18,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-13 5:23:04,Friday,Fall,Early Morning,5,FALSE,High,3,4,8,188,3,9,22,34,Discharged,4
+HOSP-1-20240219-0147,PAT-0591,73,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-19 13:44:05,Monday,Winter,Afternoon,13,FALSE,Low,1,4,2,52,50,95,110,255,Discharged,1
+HOSP-1-20240910-0148,PAT-0594,70,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-10 15:25:06,Tuesday,Fall,Afternoon,15,FALSE,Critical,4,1,7,140,1,4,11,16,Discharged,5
+HOSP-1-20241225-0149,PAT-0606,77,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-25 15:28:45,Wednesday,Winter,Afternoon,15,FALSE,Low,1,5,10,112,22,34,74,130,Discharged,1
+HOSP-1-20240104-0150,PAT-0608,62,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-04 4:11:36,Thursday,Winter,Night,4,FALSE,High,3,4,2,144,7,12,17,36,Discharged,3
+HOSP-1-20240526-0151,PAT-0611,61,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-26 17:20:27,Sunday,Spring,Evening,17,TRUE,High,3,3,7,102,4,9,18,31,Discharged,4
+HOSP-1-20241023-0152,PAT-0614,21,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-23 18:18:21,Wednesday,Fall,Evening,18,FALSE,Critical,4,1,6,66,1,3,7,11,Discharged,5
+HOSP-1-20241212-0153,PAT-0618,45,Male,HOSP-1,Springfield General Hospital,Urban,2024-12-12 3:08:39,Thursday,Winter,Night,3,FALSE,High,3,3,1,146,4,15,33,52,Discharged,4
+HOSP-1-20241009-0154,PAT-0628,25,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-09 13:35:33,Wednesday,Fall,Afternoon,13,FALSE,Critical,4,2,3,63,0,3,6,9,Admitted,4
+HOSP-1-20240523-0155,PAT-0630,38,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-23 23:51:41,Thursday,Spring,Night,23,FALSE,High,3,3,3,156,5,7,20,32,Discharged,4
+HOSP-1-20240517-0156,PAT-0637,57,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-17 4:50:38,Friday,Spring,Night,4,FALSE,High,3,3,1,83,8,15,33,56,Admitted,3
+HOSP-1-20240220-0157,PAT-0645,90,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-20 5:30:00,Tuesday,Winter,Early Morning,5,FALSE,High,3,4,4,166,8,22,24,54,Admitted,3
+HOSP-1-20241101-0158,PAT-0646,33,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-01 23:41:52,Friday,Fall,Night,23,FALSE,Critical,4,1,7,151,2,4,4,10,Admitted,4
+HOSP-1-20240411-0159,PAT-0648,20,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-11 14:53:25,Thursday,Spring,Afternoon,14,FALSE,Low,1,5,9,62,18,30,100,148,Discharged,1
+HOSP-1-20240731-0160,PAT-0653,38,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-31 19:02:40,Wednesday,Summer,Evening,19,FALSE,Medium,2,3,3,107,18,15,57,90,Admitted,2
+HOSP-1-20240817-0161,PAT-0657,38,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-17 8:34:01,Saturday,Summer,Early Morning,8,TRUE,Low,1,5,1,116,17,37,63,117,Admitted,1
+HOSP-1-20240604-0162,PAT-0671,27,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-04 9:01:30,Tuesday,Summer,Late Morning,9,FALSE,High,3,3,7,87,5,12,22,39,Discharged,4
+HOSP-1-20240422-0163,PAT-0681,58,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-22 14:46:33,Monday,Spring,Afternoon,14,FALSE,Critical,4,2,4,115,3,3,13,19,Admitted,5
+HOSP-1-20240608-0164,PAT-0683,69,Female,HOSP-1,Springfield General Hospital,Urban,2024-06-08 1:10:26,Saturday,Summer,Night,1,TRUE,Critical,4,2,10,103,3,4,15,22,Admitted,4
+HOSP-1-20240926-0165,PAT-0686,37,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-26 21:01:55,Thursday,Fall,Night,21,FALSE,Critical,4,2,6,157,2,4,8,14,Discharged,5
+HOSP-1-20240115-0166,PAT-0692,46,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-15 10:29:26,Monday,Winter,Late Morning,10,FALSE,Critical,4,2,9,54,2,4,22,28,Admitted,4
+HOSP-1-20240115-0167,PAT-0695,53,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-15 0:28:39,Monday,Winter,Night,0,FALSE,High,3,4,6,150,13,15,61,89,Admitted,2
+HOSP-1-20240712-0168,PAT-0701,35,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-12 12:29:10,Friday,Summer,Afternoon,12,FALSE,Medium,2,4,7,96,22,17,52,91,Admitted,2
+HOSP-1-20241022-0169,PAT-0706,55,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-22 14:02:13,Tuesday,Fall,Afternoon,14,FALSE,High,3,4,2,172,6,7,19,32,Discharged,4
+HOSP-1-20240319-0170,PAT-0712,51,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-19 21:32:53,Tuesday,Spring,Night,21,FALSE,Low,1,4,8,123,16,31,36,83,Discharged,2
+HOSP-1-20240304-0171,PAT-0718,31,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-04 3:29:44,Monday,Spring,Night,3,FALSE,Low,1,5,3,78,41,116,164,321,Discharged,1
+HOSP-1-20240315-0172,PAT-0729,39,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-15 20:40:00,Friday,Spring,Evening,20,FALSE,High,3,4,4,141,7,10,25,42,Discharged,3
+HOSP-1-20241220-0173,PAT-0733,39,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-20 10:58:50,Friday,Winter,Late Morning,10,FALSE,Low,1,5,9,173,54,98,153,305,Left Without Being Seen,1
+HOSP-1-20240901-0174,PAT-0736,45,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-01 13:18:12,Sunday,Fall,Afternoon,13,TRUE,Low,1,4,5,192,12,32,32,76,Discharged,2
+HOSP-1-20241021-0175,PAT-0740,67,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-21 20:59:26,Monday,Fall,Evening,20,FALSE,Critical,4,2,5,90,4,3,24,31,Discharged,4
+HOSP-1-20240119-0176,PAT-0751,44,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-19 23:01:18,Friday,Winter,Night,23,FALSE,Low,1,5,10,67,17,86,106,209,Discharged,1
+HOSP-1-20240309-0177,PAT-0754,90,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-09 18:45:11,Saturday,Spring,Evening,18,TRUE,Critical,4,2,5,57,2,5,14,21,Admitted,5
+HOSP-1-20241125-0178,PAT-0755,64,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-25 20:54:52,Monday,Fall,Evening,20,FALSE,Medium,2,4,5,104,21,16,61,98,Admitted,2
+HOSP-1-20240814-0179,PAT-0771,52,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-14 12:56:11,Wednesday,Summer,Afternoon,12,FALSE,Low,1,4,7,52,13,33,75,121,Discharged,1
+HOSP-1-20240811-0180,PAT-0772,33,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-11 20:06:27,Sunday,Summer,Evening,20,TRUE,Medium,2,4,3,93,8,32,50,90,Discharged,2
+HOSP-1-20240309-0181,PAT-0788,48,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-09 12:24:17,Saturday,Spring,Afternoon,12,TRUE,Low,1,4,10,53,15,72,87,174,Discharged,1
+HOSP-1-20240124-0182,PAT-0790,58,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-24 22:32:48,Wednesday,Winter,Night,22,FALSE,Low,1,4,6,89,30,103,120,253,Discharged,1
+HOSP-1-20240416-0183,PAT-0791,27,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-16 19:48:36,Tuesday,Spring,Evening,19,FALSE,Medium,2,4,3,112,19,19,52,90,Admitted,2
+HOSP-1-20241228-0184,PAT-0792,51,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-28 7:53:49,Saturday,Winter,Early Morning,7,TRUE,Medium,2,4,3,175,23,23,75,121,Discharged,1
+HOSP-1-20240505-0185,PAT-0793,45,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-05 19:30:57,Sunday,Spring,Evening,19,TRUE,Low,1,4,5,147,19,37,51,107,Admitted,1
+HOSP-1-20240511-0186,PAT-0795,58,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-11 19:19:30,Saturday,Spring,Evening,19,TRUE,High,3,4,1,141,3,9,23,35,Discharged,4
+HOSP-1-20240124-0187,PAT-0797,72,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-24 16:04:07,Wednesday,Winter,Afternoon,16,FALSE,Medium,2,3,10,160,22,44,59,125,Discharged,1
+HOSP-1-20240823-0188,PAT-0803,60,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-23 4:34:18,Friday,Summer,Night,4,FALSE,High,3,3,2,115,5,11,33,49,Admitted,3
+HOSP-1-20241123-0189,PAT-0818,53,Male,HOSP-1,Springfield General Hospital,Urban,2024-11-23 10:34:47,Saturday,Fall,Late Morning,10,TRUE,Critical,4,2,5,158,2,4,7,13,Admitted,4
+HOSP-1-20241114-0190,PAT-0824,86,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-14 1:09:53,Thursday,Fall,Night,1,FALSE,Critical,4,1,1,159,1,1,9,11,Discharged,4
+HOSP-1-20240509-0191,PAT-0839,42,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-09 22:42:50,Thursday,Spring,Night,22,FALSE,Low,1,5,7,119,32,52,86,170,Left Without Being Seen,1
+HOSP-1-20240826-0192,PAT-0843,40,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-26 6:05:44,Monday,Summer,Early Morning,6,FALSE,Medium,2,3,4,55,13,23,31,67,Admitted,3
+HOSP-1-20241016-0193,PAT-0849,28,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-16 0:20:50,Wednesday,Fall,Night,0,FALSE,High,3,4,3,54,5,11,21,37,Admitted,4
+HOSP-1-20240815-0194,PAT-0850,47,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-15 1:19:25,Thursday,Summer,Night,1,FALSE,Medium,2,3,3,191,11,18,57,86,Admitted,2
+HOSP-1-20240116-0195,PAT-0855,56,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-16 11:24:29,Tuesday,Winter,Late Morning,11,FALSE,Critical,4,1,9,98,1,2,15,18,Discharged,5
+HOSP-1-20240810-0196,PAT-0866,57,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-10 2:09:22,Saturday,Summer,Night,2,TRUE,Low,1,4,8,144,19,27,64,110,Admitted,1
+HOSP-1-20240602-0197,PAT-0868,53,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-02 7:26:26,Sunday,Summer,Early Morning,7,TRUE,High,3,3,8,133,6,10,31,47,Admitted,3
+HOSP-1-20241123-0198,PAT-0879,27,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-23 23:18:26,Saturday,Fall,Night,23,TRUE,High,3,4,5,195,3,6,11,20,Admitted,5
+HOSP-1-20240818-0199,PAT-0887,42,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-18 7:18:34,Sunday,Summer,Early Morning,7,TRUE,Medium,2,4,8,97,12,35,73,120,Discharged,1
+HOSP-1-20241210-0200,PAT-0891,51,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-10 5:59:35,Tuesday,Winter,Early Morning,5,FALSE,High,3,3,5,184,6,18,28,52,Admitted,3
+HOSP-1-20240818-0201,PAT-0909,66,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-18 1:43:46,Sunday,Summer,Night,1,TRUE,Medium,2,4,6,99,25,27,50,102,Discharged,1
+HOSP-1-20241216-0202,PAT-0919,57,Male,HOSP-1,Springfield General Hospital,Urban,2024-12-16 4:43:58,Monday,Winter,Night,4,FALSE,Low,1,4,9,72,48,103,131,282,Discharged,1
+HOSP-1-20241105-0203,PAT-0922,76,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-05 0:11:40,Tuesday,Fall,Night,0,FALSE,Low,1,4,10,55,32,39,75,146,Discharged,1
+HOSP-1-20241027-0204,PAT-0925,43,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-27 6:21:24,Sunday,Fall,Early Morning,6,TRUE,High,3,4,8,169,4,9,17,30,Discharged,4
+HOSP-1-20240325-0205,PAT-0928,31,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-25 11:10:40,Monday,Spring,Late Morning,11,FALSE,Critical,4,1,3,87,0,3,8,11,Admitted,5
+HOSP-1-20240110-0206,PAT-0935,31,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-10 18:33:42,Wednesday,Winter,Evening,18,FALSE,High,3,4,6,103,3,9,20,32,Admitted,4
+HOSP-1-20240504-0207,PAT-0936,26,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-04 5:52:34,Saturday,Spring,Early Morning,5,TRUE,Medium,2,3,8,88,9,28,27,64,Discharged,2
+HOSP-1-20240129-0208,PAT-0941,30,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-29 20:24:19,Monday,Winter,Evening,20,FALSE,Medium,2,4,3,62,28,54,116,198,Discharged,1
+HOSP-1-20240301-0209,PAT-0942,71,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-01 16:49:55,Friday,Spring,Afternoon,16,FALSE,Medium,2,4,4,200,7,34,47,88,Discharged,2
+HOSP-1-20240212-0210,PAT-0954,67,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-12 5:25:57,Monday,Winter,Early Morning,5,FALSE,High,3,4,2,102,6,13,41,60,Admitted,3
+HOSP-1-20241214-0211,PAT-0955,21,Male,HOSP-1,Springfield General Hospital,Urban,2024-12-14 13:06:13,Saturday,Winter,Afternoon,13,TRUE,High,3,3,5,156,5,9,21,35,Discharged,3
+HOSP-1-20240625-0212,PAT-0957,18,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-25 11:51:11,Tuesday,Summer,Late Morning,11,FALSE,Medium,2,4,10,180,12,28,72,112,Discharged,1
+HOSP-1-20240714-0213,PAT-0958,60,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-14 0:25:44,Sunday,Summer,Night,0,TRUE,Low,1,4,8,157,21,34,57,112,Admitted,1
+HOSP-1-20240527-0214,PAT-0962,59,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-27 20:43:08,Monday,Spring,Evening,20,FALSE,High,3,4,1,138,10,13,32,55,Discharged,3
+HOSP-1-20241226-0215,PAT-0963,64,Male,HOSP-1,Springfield General Hospital,Urban,2024-12-26 23:32:11,Thursday,Winter,Night,23,FALSE,Medium,2,4,2,171,6,13,66,85,Discharged,2
+HOSP-1-20240218-0216,PAT-0971,21,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-18 12:09:28,Sunday,Winter,Afternoon,12,TRUE,High,3,3,1,92,8,12,28,48,Discharged,3
+HOSP-1-20240704-0217,PAT-0972,59,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-04 2:37:31,Thursday,Summer,Night,2,FALSE,High,3,3,8,50,3,5,20,28,Discharged,5
+HOSP-1-20241020-0218,PAT-0973,40,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-20 4:16:31,Sunday,Fall,Night,4,TRUE,Medium,2,4,1,173,10,12,24,46,Discharged,3
+HOSP-1-20240731-0219,PAT-0974,25,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-31 19:32:27,Wednesday,Summer,Evening,19,FALSE,Low,1,5,10,75,47,72,105,224,Discharged,1
+HOSP-1-20241114-0220,PAT-0978,56,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-14 18:30:44,Thursday,Fall,Evening,18,FALSE,Low,1,4,4,142,25,43,111,179,Discharged,1
+HOSP-1-20240325-0221,PAT-0981,49,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-25 13:39:13,Monday,Spring,Afternoon,13,FALSE,High,3,4,2,55,4,12,30,46,Admitted,3
+HOSP-1-20240513-0222,PAT-0986,54,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-13 6:53:08,Monday,Spring,Early Morning,6,FALSE,Low,1,4,10,91,19,80,125,224,Discharged,1
+HOSP-1-20240430-0223,PAT-0991,64,Male,HOSP-1,Springfield General Hospital,Urban,2024-04-30 0:38:06,Tuesday,Spring,Night,0,FALSE,Critical,4,1,10,187,2,1,4,7,Discharged,4
+HOSP-1-20240920-0224,PAT-0992,33,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-20 3:34:13,Friday,Fall,Night,3,FALSE,Low,1,5,8,140,22,56,69,147,Discharged,1
+HOSP-1-20241227-0225,PAT-0994,44,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-27 5:27:27,Friday,Winter,Early Morning,5,FALSE,Critical,4,2,9,129,2,4,26,32,Discharged,4
+HOSP-1-20240804-0226,PAT-01004,55,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-04 13:44:29,Sunday,Summer,Afternoon,13,TRUE,High,3,4,3,176,3,9,17,29,Discharged,4
+HOSP-1-20240423-0227,PAT-01015,52,Male,HOSP-1,Springfield General Hospital,Urban,2024-04-23 7:35:38,Tuesday,Spring,Early Morning,7,FALSE,High,3,3,8,56,5,5,11,21,Admitted,5
+HOSP-1-20241212-0228,PAT-01017,51,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-12 0:40:17,Thursday,Winter,Night,0,FALSE,Critical,4,2,9,84,3,3,14,20,Admitted,5
+HOSP-1-20240220-0229,PAT-01019,49,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-20 3:15:10,Tuesday,Winter,Night,3,FALSE,Low,1,4,10,97,36,89,107,232,Discharged,1
+HOSP-1-20240330-0230,PAT-01026,33,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-30 17:15:09,Saturday,Spring,Evening,17,TRUE,Medium,2,4,1,140,14,22,41,77,Discharged,2
+HOSP-1-20240105-0231,PAT-01039,18,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-05 13:17:08,Friday,Winter,Afternoon,13,FALSE,Medium,2,3,8,122,24,35,55,114,Admitted,1
+HOSP-1-20240421-0232,PAT-01040,36,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-21 17:44:03,Sunday,Spring,Evening,17,TRUE,Medium,2,3,10,68,4,18,44,66,Discharged,3
+HOSP-1-20241005-0233,PAT-01044,49,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-05 14:55:16,Saturday,Fall,Afternoon,14,TRUE,High,3,4,10,162,3,11,11,25,Discharged,4
+HOSP-1-20241115-0234,PAT-01048,54,Male,HOSP-1,Springfield General Hospital,Urban,2024-11-15 16:35:32,Friday,Fall,Afternoon,16,FALSE,High,3,4,2,189,5,9,34,48,Admitted,4
+HOSP-1-20240704-0235,PAT-01057,40,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-04 0:27:04,Thursday,Summer,Night,0,FALSE,High,3,4,9,121,8,13,32,53,Discharged,3
+HOSP-1-20241211-0236,PAT-01063,90,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-11 14:04:10,Wednesday,Winter,Afternoon,14,FALSE,Critical,4,1,7,129,2,4,12,18,Discharged,4
+HOSP-1-20240218-0237,PAT-01070,30,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-18 14:13:36,Sunday,Winter,Afternoon,14,TRUE,Medium,2,4,7,152,7,22,47,76,Discharged,2
+HOSP-1-20241109-0238,PAT-01071,28,Male,HOSP-1,Springfield General Hospital,Urban,2024-11-09 8:48:35,Saturday,Fall,Early Morning,8,TRUE,Low,1,4,6,95,20,40,62,122,Discharged,1
+HOSP-1-20240807-0239,PAT-01076,25,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-07 18:35:46,Wednesday,Summer,Evening,18,FALSE,Critical,4,1,7,95,2,3,7,12,Admitted,4
+HOSP-1-20240321-0240,PAT-01078,51,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-21 17:59:41,Thursday,Spring,Evening,17,FALSE,Critical,4,1,5,167,0,2,10,12,Discharged,4
+HOSP-1-20240511-0241,PAT-01086,63,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-11 12:22:36,Saturday,Spring,Afternoon,12,TRUE,High,3,3,6,57,2,5,14,21,Admitted,4
+HOSP-1-20240801-0242,PAT-01104,31,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-01 13:08:36,Thursday,Summer,Afternoon,13,FALSE,Critical,4,1,8,140,1,2,9,12,Admitted,5
+HOSP-1-20240125-0243,PAT-01129,48,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-25 5:46:57,Thursday,Winter,Early Morning,5,FALSE,Low,1,4,4,99,28,66,116,210,Discharged,1
+HOSP-1-20241014-0244,PAT-01130,56,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-14 22:09:59,Monday,Fall,Night,22,FALSE,Critical,4,2,2,189,5,7,24,36,Admitted,4
+HOSP-1-20240505-0245,PAT-01154,57,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-05 8:18:07,Sunday,Spring,Early Morning,8,TRUE,Low,1,4,6,123,15,25,78,118,Admitted,1
+HOSP-1-20240608-0246,PAT-01155,39,Female,HOSP-1,Springfield General Hospital,Urban,2024-06-08 6:43:41,Saturday,Summer,Early Morning,6,TRUE,Critical,4,2,4,96,4,4,13,21,Admitted,4
+HOSP-1-20240227-0247,PAT-01159,41,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-27 7:29:58,Tuesday,Winter,Early Morning,7,FALSE,Low,1,4,5,146,24,66,87,177,Discharged,1
+HOSP-1-20240428-0248,PAT-01160,18,Male,HOSP-1,Springfield General Hospital,Urban,2024-04-28 19:40:07,Sunday,Spring,Evening,19,TRUE,Low,1,5,3,76,11,41,52,104,Discharged,1
+HOSP-1-20240830-0249,PAT-01163,68,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-30 13:53:52,Friday,Summer,Afternoon,13,FALSE,Critical,4,1,3,76,2,2,6,10,Discharged,5
+HOSP-1-20240523-0250,PAT-01165,18,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-23 9:41:03,Thursday,Spring,Late Morning,9,FALSE,Low,1,4,3,139,20,35,69,124,Left Without Being Seen,1
+HOSP-1-20240407-0251,PAT-01178,71,Male,HOSP-1,Springfield General Hospital,Urban,2024-04-07 7:45:37,Sunday,Spring,Early Morning,7,TRUE,Medium,2,3,9,104,14,16,32,62,Admitted,3
+HOSP-1-20240617-0252,PAT-01190,23,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-17 20:24:54,Monday,Summer,Evening,20,FALSE,Critical,4,1,3,58,4,4,17,25,Discharged,4
+HOSP-1-20240415-0253,PAT-01195,42,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-15 23:53:29,Monday,Spring,Night,23,FALSE,Critical,4,1,3,98,3,8,23,34,Discharged,4
+HOSP-1-20240202-0254,PAT-01197,90,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-02 19:42:43,Friday,Winter,Evening,19,FALSE,Medium,2,3,10,176,27,31,61,119,Admitted,1
+HOSP-1-20241117-0255,PAT-01198,49,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-17 15:09:26,Sunday,Fall,Afternoon,15,TRUE,Critical,4,1,6,185,0,4,12,16,Discharged,5
+HOSP-1-20240803-0256,PAT-01199,40,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-03 20:05:34,Saturday,Summer,Evening,20,TRUE,Low,1,4,10,180,37,52,80,169,Left Without Being Seen,1
+HOSP-1-20240106-0257,PAT-01203,26,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-06 14:20:38,Saturday,Winter,Afternoon,14,TRUE,Medium,2,4,2,176,24,28,96,148,Discharged,1
+HOSP-1-20241214-0258,PAT-01205,60,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-14 20:33:55,Saturday,Winter,Evening,20,TRUE,Critical,4,2,6,180,3,5,7,15,Discharged,4
+HOSP-1-20241122-0259,PAT-01210,51,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-22 15:58:58,Friday,Fall,Afternoon,15,FALSE,Low,1,5,3,192,29,91,99,219,Left Without Being Seen,1
+HOSP-1-20240414-0260,PAT-01240,18,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-14 13:06:16,Sunday,Spring,Afternoon,13,TRUE,Low,1,4,3,111,10,49,65,124,Left Without Being Seen,1
+HOSP-1-20240131-0261,PAT-01250,90,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-31 5:38:44,Wednesday,Winter,Early Morning,5,FALSE,High,3,3,4,179,3,5,11,19,Admitted,4
+HOSP-1-20240518-0262,PAT-01254,45,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-18 17:49:41,Saturday,Spring,Evening,17,TRUE,Medium,2,3,1,110,14,18,27,59,Admitted,3
+HOSP-1-20240331-0263,PAT-01260,50,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-31 0:26:31,Sunday,Spring,Night,0,TRUE,Medium,2,3,1,55,11,24,45,80,Discharged,2
+HOSP-1-20240125-0264,PAT-01264,46,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-25 20:28:04,Thursday,Winter,Evening,20,FALSE,Medium,2,4,8,125,29,29,89,147,Discharged,1
+HOSP-1-20240318-0265,PAT-01269,40,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-18 17:33:15,Monday,Spring,Evening,17,FALSE,Medium,2,4,9,138,21,44,46,111,Discharged,1
+HOSP-1-20240816-0266,PAT-01275,66,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-16 11:10:08,Friday,Summer,Late Morning,11,FALSE,Low,1,4,5,51,16,33,93,142,Discharged,1
+HOSP-1-20240607-0267,PAT-01276,57,Female,HOSP-1,Springfield General Hospital,Urban,2024-06-07 23:07:05,Friday,Summer,Night,23,FALSE,Low,1,4,2,81,25,116,134,275,Discharged,1
+HOSP-1-20240401-0268,PAT-01277,56,Male,HOSP-1,Springfield General Hospital,Urban,2024-04-01 13:24:58,Monday,Spring,Afternoon,13,FALSE,Medium,2,3,6,189,10,14,57,81,Admitted,2
+HOSP-1-20240521-0269,PAT-01290,49,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-21 3:58:30,Tuesday,Spring,Night,3,FALSE,High,3,3,3,71,5,12,17,34,Admitted,4
+HOSP-1-20241029-0270,PAT-01294,71,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-29 7:59:20,Tuesday,Fall,Early Morning,7,FALSE,Medium,2,3,5,156,17,14,52,83,Discharged,3
+HOSP-1-20241124-0271,PAT-01295,70,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-24 0:01:23,Sunday,Fall,Night,0,TRUE,Medium,2,3,6,172,12,9,19,40,Discharged,4
+HOSP-1-20240609-0272,PAT-01297,63,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-09 8:03:18,Sunday,Summer,Early Morning,8,TRUE,Critical,4,1,9,71,1,3,12,16,Admitted,5
+HOSP-1-20241208-0273,PAT-01298,42,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-08 1:38:44,Sunday,Winter,Night,1,TRUE,Critical,4,1,8,83,2,2,12,16,Discharged,4
+HOSP-1-20240728-0274,PAT-01300,66,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-28 7:25:10,Sunday,Summer,Early Morning,7,TRUE,Critical,4,1,9,127,3,4,15,22,Discharged,4
+HOSP-1-20241210-0275,PAT-01305,31,Male,HOSP-1,Springfield General Hospital,Urban,2024-12-10 18:29:05,Tuesday,Winter,Evening,18,FALSE,Medium,2,3,8,63,14,24,79,117,Discharged,1
+HOSP-1-20240525-0276,PAT-01307,41,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-25 15:29:16,Saturday,Spring,Afternoon,15,TRUE,Medium,2,3,6,139,8,32,57,97,Admitted,2
+HOSP-1-20240727-0277,PAT-01309,74,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-27 11:26:31,Saturday,Summer,Late Morning,11,TRUE,Low,1,5,6,184,23,45,83,151,Discharged,1
+HOSP-1-20241116-0278,PAT-01321,45,Male,HOSP-1,Springfield General Hospital,Urban,2024-11-16 21:21:41,Saturday,Fall,Night,21,TRUE,Critical,4,1,1,73,1,1,6,8,Discharged,5
+HOSP-1-20240601-0279,PAT-01324,18,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-01 8:29:10,Saturday,Summer,Early Morning,8,TRUE,Critical,4,1,3,81,3,3,16,22,Admitted,4
+HOSP-1-20241022-0280,PAT-01325,71,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-22 11:44:20,Tuesday,Fall,Late Morning,11,FALSE,Critical,4,2,4,163,2,3,9,14,Admitted,4
+HOSP-1-20240418-0281,PAT-01334,53,Male,HOSP-1,Springfield General Hospital,Urban,2024-04-18 16:37:45,Thursday,Spring,Afternoon,16,FALSE,Low,1,4,5,67,22,64,66,152,Discharged,1
+HOSP-1-20240916-0282,PAT-01335,35,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-16 18:31:18,Monday,Fall,Evening,18,FALSE,Medium,2,4,10,62,10,18,57,85,Discharged,2
+HOSP-1-20240312-0283,PAT-01339,46,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-12 13:18:22,Tuesday,Spring,Afternoon,13,FALSE,High,3,3,9,114,5,6,12,23,Discharged,4
+HOSP-1-20240610-0284,PAT-01347,41,Female,HOSP-1,Springfield General Hospital,Urban,2024-06-10 6:56:55,Monday,Summer,Early Morning,6,FALSE,High,3,3,1,176,12,14,32,58,Discharged,3
+HOSP-1-20240319-0285,PAT-01349,63,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-19 10:28:11,Tuesday,Spring,Late Morning,10,FALSE,Medium,2,4,9,150,11,20,48,79,Discharged,3
+HOSP-1-20240821-0286,PAT-01357,90,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-21 9:37:16,Wednesday,Summer,Late Morning,9,FALSE,Critical,4,2,3,81,0,1,13,14,Discharged,4
+HOSP-1-20240207-0287,PAT-01361,73,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-07 23:22:32,Wednesday,Winter,Night,23,FALSE,Critical,4,2,1,170,1,3,15,19,Admitted,4
+HOSP-1-20240629-0288,PAT-01362,65,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-29 19:33:46,Saturday,Summer,Evening,19,TRUE,Critical,4,2,4,110,1,7,11,19,Discharged,4
+HOSP-1-20240413-0289,PAT-01363,40,Male,HOSP-1,Springfield General Hospital,Urban,2024-04-13 9:02:18,Saturday,Spring,Late Morning,9,TRUE,Low,1,4,6,146,19,31,67,117,Admitted,2
+HOSP-1-20240509-0290,PAT-01366,18,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-09 23:25:47,Thursday,Spring,Night,23,FALSE,High,3,3,5,153,4,11,28,43,Admitted,3
+HOSP-1-20240613-0291,PAT-01368,19,Female,HOSP-1,Springfield General Hospital,Urban,2024-06-13 18:20:14,Thursday,Summer,Evening,18,FALSE,Critical,4,1,9,122,0,1,9,10,Discharged,4
+HOSP-1-20240722-0292,PAT-01386,28,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-22 15:47:48,Monday,Summer,Afternoon,15,FALSE,Medium,2,3,9,86,25,55,75,155,Left Without Being Seen,1
+HOSP-1-20240829-0293,PAT-01394,80,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-29 20:54:39,Thursday,Summer,Evening,20,FALSE,Low,1,4,5,162,30,63,61,154,Discharged,1
+HOSP-1-20241006-0294,PAT-01396,41,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-06 15:59:17,Sunday,Fall,Afternoon,15,TRUE,Critical,4,1,1,128,0,1,13,14,Discharged,5
+HOSP-1-20240311-0295,PAT-01411,55,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-11 22:06:39,Monday,Spring,Night,22,FALSE,Medium,2,3,8,198,19,28,69,116,Discharged,1
+HOSP-1-20241002-0296,PAT-01412,37,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-02 1:28:30,Wednesday,Fall,Night,1,FALSE,High,3,4,1,186,5,10,17,32,Discharged,4
+HOSP-1-20240906-0297,PAT-01413,31,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-06 8:05:02,Friday,Fall,Early Morning,8,FALSE,Critical,4,2,3,199,2,4,6,12,Admitted,4
+HOSP-1-20240416-0298,PAT-01414,35,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-16 8:44:04,Tuesday,Spring,Early Morning,8,FALSE,Low,1,5,4,152,27,49,95,171,Discharged,1
+HOSP-1-20240122-0299,PAT-01416,64,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-22 2:18:01,Monday,Winter,Night,2,FALSE,Low,1,5,10,55,33,119,117,269,Left Without Being Seen,1
+HOSP-1-20240715-0300,PAT-01426,25,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-15 3:24:53,Monday,Summer,Night,3,FALSE,Medium,2,3,3,83,32,49,95,176,Left Without Being Seen,1
+HOSP-1-20241103-0301,PAT-01428,44,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-03 20:36:53,Sunday,Fall,Evening,20,TRUE,Critical,4,2,4,111,2,3,9,14,Discharged,4
+HOSP-1-20240910-0302,PAT-01433,22,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-10 21:27:09,Tuesday,Fall,Night,21,FALSE,High,3,4,5,53,3,10,30,43,Discharged,4
+HOSP-1-20241225-0303,PAT-01436,46,Male,HOSP-1,Springfield General Hospital,Urban,2024-12-25 11:49:40,Wednesday,Winter,Late Morning,11,FALSE,High,3,3,4,175,10,14,29,53,Admitted,3
+HOSP-1-20241010-0304,PAT-01452,64,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-10 9:06:19,Thursday,Fall,Late Morning,9,FALSE,Medium,2,3,10,187,8,8,17,33,Discharged,4
+HOSP-1-20240930-0305,PAT-01458,35,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-30 22:37:04,Monday,Fall,Night,22,FALSE,Medium,2,4,2,176,21,28,45,94,Admitted,2
+HOSP-1-20240310-0306,PAT-01459,63,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-10 9:51:31,Sunday,Spring,Late Morning,9,TRUE,High,3,3,6,129,4,4,16,24,Discharged,4
+HOSP-1-20240517-0307,PAT-01464,72,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-17 11:14:46,Friday,Spring,Late Morning,11,FALSE,High,3,4,4,150,3,9,28,40,Discharged,4
+HOSP-1-20240124-0308,PAT-01473,39,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-24 5:44:41,Wednesday,Winter,Early Morning,5,FALSE,Critical,4,1,8,164,3,3,10,16,Admitted,5
+HOSP-1-20240512-0309,PAT-01474,55,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-12 1:39:31,Sunday,Spring,Night,1,TRUE,High,3,4,8,148,6,6,16,28,Discharged,4
+HOSP-1-20240107-0310,PAT-01478,45,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-07 6:54:15,Sunday,Winter,Early Morning,6,TRUE,High,3,3,2,79,4,7,24,35,Admitted,4
+HOSP-1-20240112-0311,PAT-01485,62,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-12 14:21:02,Friday,Winter,Afternoon,14,FALSE,Medium,2,3,4,137,37,37,49,123,Discharged,1
+HOSP-1-20240629-0312,PAT-01487,60,Female,HOSP-1,Springfield General Hospital,Urban,2024-06-29 16:50:05,Saturday,Summer,Afternoon,16,TRUE,Medium,2,3,9,123,12,18,40,70,Admitted,2
+HOSP-1-20240716-0313,PAT-01489,48,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-16 6:46:15,Tuesday,Summer,Early Morning,6,FALSE,High,3,3,7,117,7,12,32,51,Admitted,4
+HOSP-1-20240502-0314,PAT-01492,54,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-02 23:29:52,Thursday,Spring,Night,23,FALSE,Medium,2,4,6,95,5,21,30,56,Admitted,3
+HOSP-1-20240315-0315,PAT-01514,25,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-15 10:36:55,Friday,Spring,Late Morning,10,FALSE,Critical,4,1,4,168,1,3,4,8,Admitted,5
+HOSP-1-20240920-0316,PAT-01515,60,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-20 19:43:43,Friday,Fall,Evening,19,FALSE,High,3,3,6,77,3,5,18,26,Admitted,4
+HOSP-1-20240519-0317,PAT-01516,53,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-19 10:47:41,Sunday,Spring,Late Morning,10,TRUE,High,3,4,5,148,4,9,25,38,Admitted,4
+HOSP-1-20241217-0318,PAT-01520,65,Female,HOSP-1,Springfield General Hospital,Urban,2024-12-17 22:55:34,Tuesday,Winter,Night,22,FALSE,High,3,4,9,127,7,12,33,52,Discharged,3
+HOSP-1-20240104-0319,PAT-01521,41,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-04 6:39:45,Thursday,Winter,Early Morning,6,FALSE,Critical,4,1,3,192,4,7,20,31,Discharged,4
+HOSP-1-20241117-0320,PAT-01530,56,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-17 22:27:02,Sunday,Fall,Night,22,TRUE,High,3,3,2,97,2,7,15,24,Admitted,4
+HOSP-1-20240806-0321,PAT-01533,78,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-06 14:11:54,Tuesday,Summer,Afternoon,14,FALSE,Low,1,5,2,58,27,72,96,195,Discharged,1
+HOSP-1-20240801-0322,PAT-01539,40,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-01 6:50:09,Thursday,Summer,Early Morning,6,FALSE,High,3,4,4,140,8,15,22,45,Admitted,4
+HOSP-1-20240526-0323,PAT-01543,48,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-26 19:10:42,Sunday,Spring,Evening,19,TRUE,Low,1,4,8,68,13,34,56,103,Admitted,1
+HOSP-1-20240227-0324,PAT-01547,24,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-27 18:59:40,Tuesday,Winter,Evening,18,FALSE,High,3,4,3,52,5,6,27,38,Discharged,4
+HOSP-1-20241001-0325,PAT-01549,41,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-01 18:05:55,Tuesday,Fall,Evening,18,FALSE,Medium,2,4,6,94,12,42,40,94,Admitted,2
+HOSP-1-20240728-0326,PAT-01555,65,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-28 11:10:21,Sunday,Summer,Late Morning,11,TRUE,Low,1,4,4,98,12,26,74,112,Discharged,2
+HOSP-1-20241124-0327,PAT-01556,42,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-24 14:56:30,Sunday,Fall,Afternoon,14,TRUE,Medium,2,4,9,91,12,18,24,54,Admitted,3
+HOSP-1-20240916-0328,PAT-01557,20,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-16 20:53:08,Monday,Fall,Evening,20,FALSE,Critical,4,2,6,51,3,5,10,18,Admitted,4
+HOSP-1-20240401-0329,PAT-01559,69,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-01 9:55:48,Monday,Spring,Late Morning,9,FALSE,High,3,4,2,156,5,15,31,51,Admitted,3
+HOSP-1-20240901-0330,PAT-01560,53,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-01 4:29:22,Sunday,Fall,Night,4,TRUE,Low,1,4,7,105,16,52,78,146,Discharged,1
+HOSP-1-20240117-0331,PAT-01569,18,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-17 8:35:03,Wednesday,Winter,Early Morning,8,FALSE,High,3,3,2,154,8,17,33,58,Admitted,3
+HOSP-1-20240529-0332,PAT-01578,41,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-29 20:18:08,Wednesday,Spring,Evening,20,FALSE,High,3,3,7,71,6,6,14,26,Admitted,4
+HOSP-1-20241022-0333,PAT-01582,33,Male,HOSP-1,Springfield General Hospital,Urban,2024-10-22 12:42:09,Tuesday,Fall,Afternoon,12,FALSE,Medium,2,4,9,117,20,21,43,84,Discharged,2
+HOSP-1-20240816-0334,PAT-01584,18,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-16 10:35:57,Friday,Summer,Late Morning,10,FALSE,High,3,3,10,155,4,7,14,25,Admitted,4
+HOSP-1-20240525-0335,PAT-01595,27,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-25 5:25:21,Saturday,Spring,Early Morning,5,TRUE,Low,1,5,6,56,24,76,62,162,Discharged,1
+HOSP-1-20240902-0336,PAT-01596,65,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-02 13:16:39,Monday,Fall,Afternoon,13,FALSE,Medium,2,3,1,56,20,23,33,76,Discharged,3
+HOSP-1-20241123-0337,PAT-01597,66,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-23 15:37:42,Saturday,Fall,Afternoon,15,TRUE,Low,1,5,1,192,9,32,61,102,Admitted,2
+HOSP-1-20240930-0338,PAT-01601,59,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-30 22:42:08,Monday,Fall,Night,22,FALSE,High,3,3,6,117,3,8,18,29,Discharged,4
+HOSP-1-20240927-0339,PAT-01604,29,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-27 16:46:11,Friday,Fall,Afternoon,16,FALSE,Low,1,4,2,127,30,71,77,178,Discharged,1
+HOSP-1-20240210-0340,PAT-01605,37,Female,HOSP-1,Springfield General Hospital,Urban,2024-02-10 18:29:25,Saturday,Winter,Evening,18,TRUE,Medium,2,3,2,192,24,38,85,147,Discharged,1
+HOSP-1-20240215-0341,PAT-01619,37,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-15 22:02:59,Thursday,Winter,Night,22,FALSE,Medium,2,3,1,191,14,31,72,117,Admitted,1
+HOSP-1-20240115-0342,PAT-01620,68,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-15 21:11:38,Monday,Winter,Night,21,FALSE,Low,1,5,10,154,29,68,143,240,Discharged,1
+HOSP-1-20240831-0343,PAT-01624,34,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-31 7:01:42,Saturday,Summer,Early Morning,7,TRUE,Low,1,5,10,155,26,40,76,142,Discharged,1
+HOSP-1-20241211-0344,PAT-01632,90,Male,HOSP-1,Springfield General Hospital,Urban,2024-12-11 16:42:49,Wednesday,Winter,Afternoon,16,FALSE,Critical,4,1,10,160,1,4,12,17,Discharged,4
+HOSP-1-20240814-0345,PAT-01639,39,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-14 7:45:13,Wednesday,Summer,Early Morning,7,FALSE,Low,1,4,10,111,21,84,136,241,Discharged,1
+HOSP-1-20240626-0346,PAT-01642,69,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-26 15:55:30,Wednesday,Summer,Afternoon,15,FALSE,High,3,3,7,74,3,6,16,25,Discharged,5
+HOSP-1-20240619-0347,PAT-01654,90,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-19 6:44:49,Wednesday,Summer,Early Morning,6,FALSE,High,3,3,9,50,5,15,32,52,Discharged,4
+HOSP-1-20240413-0348,PAT-01667,41,Male,HOSP-1,Springfield General Hospital,Urban,2024-04-13 4:11:55,Saturday,Spring,Night,4,TRUE,Low,1,4,4,108,22,44,56,122,Discharged,1
+HOSP-1-20240417-0349,PAT-01696,36,Male,HOSP-1,Springfield General Hospital,Urban,2024-04-17 7:55:30,Wednesday,Spring,Early Morning,7,FALSE,Low,1,5,3,59,30,45,111,186,Discharged,1
+HOSP-1-20240314-0350,PAT-01700,59,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-14 7:55:24,Thursday,Spring,Early Morning,7,FALSE,High,3,3,2,75,7,10,15,32,Discharged,4
+HOSP-1-20240823-0351,PAT-01702,79,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-23 1:40:49,Friday,Summer,Night,1,FALSE,Medium,2,3,9,195,10,29,62,101,Discharged,2
+HOSP-1-20240720-0352,PAT-01712,52,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-20 0:58:19,Saturday,Summer,Night,0,TRUE,High,3,4,10,101,3,10,23,36,Admitted,4
+HOSP-1-20240811-0353,PAT-01719,50,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-11 22:22:07,Sunday,Summer,Night,22,TRUE,Medium,2,3,7,150,11,11,37,59,Admitted,3
+HOSP-1-20240223-0354,PAT-01732,53,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-23 14:15:57,Friday,Winter,Afternoon,14,FALSE,Critical,4,1,4,65,3,7,16,26,Admitted,4
+HOSP-1-20240226-0355,PAT-01735,18,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-26 17:15:51,Monday,Winter,Evening,17,FALSE,Medium,2,3,3,186,21,62,128,211,Discharged,1
+HOSP-1-20240328-0356,PAT-01736,90,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-28 10:43:14,Thursday,Spring,Late Morning,10,FALSE,Critical,4,1,2,154,3,6,7,16,Admitted,4
+HOSP-1-20240325-0357,PAT-01742,29,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-25 10:35:00,Monday,Spring,Late Morning,10,FALSE,High,3,4,8,178,5,8,15,28,Admitted,4
+HOSP-1-20240715-0358,PAT-01754,80,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-15 9:49:15,Monday,Summer,Late Morning,9,FALSE,Medium,2,3,9,134,11,26,57,94,Admitted,2
+HOSP-1-20240604-0359,PAT-01755,18,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-04 0:13:19,Tuesday,Summer,Night,0,FALSE,High,3,3,5,105,4,9,24,37,Discharged,4
+HOSP-1-20240123-0360,PAT-01757,58,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-23 16:55:25,Tuesday,Winter,Afternoon,16,FALSE,Critical,4,1,2,112,2,7,16,25,Admitted,5
+HOSP-1-20240107-0361,PAT-01758,68,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-07 14:46:27,Sunday,Winter,Afternoon,14,TRUE,Low,1,5,7,60,33,45,116,194,Discharged,1
+HOSP-1-20240626-0362,PAT-01760,80,Male,HOSP-1,Springfield General Hospital,Urban,2024-06-26 0:51:44,Wednesday,Summer,Night,0,FALSE,High,3,3,3,88,6,10,17,33,Discharged,4
+HOSP-1-20240730-0363,PAT-01767,29,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-30 15:24:13,Tuesday,Summer,Afternoon,15,FALSE,Critical,4,2,6,136,3,4,11,18,Admitted,4
+HOSP-1-20240501-0364,PAT-01768,58,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-01 6:13:37,Wednesday,Spring,Early Morning,6,FALSE,High,3,4,10,96,8,16,18,42,Discharged,4
+HOSP-1-20240125-0365,PAT-01769,58,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-25 22:26:31,Thursday,Winter,Night,22,FALSE,Low,1,4,4,192,39,103,108,250,Discharged,1
+HOSP-1-20240713-0366,PAT-01771,81,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-13 13:11:33,Saturday,Summer,Afternoon,13,TRUE,High,3,4,5,177,3,10,26,39,Discharged,4
+HOSP-1-20240204-0367,PAT-01775,52,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-04 14:11:10,Sunday,Winter,Afternoon,14,TRUE,Medium,2,3,5,190,14,40,42,96,Discharged,2
+HOSP-1-20240704-0368,PAT-01776,40,Male,HOSP-1,Springfield General Hospital,Urban,2024-07-04 18:12:13,Thursday,Summer,Evening,18,FALSE,Low,1,5,4,69,31,48,143,222,Discharged,1
+HOSP-1-20240701-0369,PAT-01778,28,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-01 7:44:53,Monday,Summer,Early Morning,7,FALSE,Critical,4,1,10,154,5,9,27,41,Admitted,4
+HOSP-1-20240514-0370,PAT-01792,26,Male,HOSP-1,Springfield General Hospital,Urban,2024-05-14 0:06:01,Tuesday,Spring,Night,0,FALSE,High,3,3,3,110,4,7,21,32,Admitted,4
+HOSP-1-20240127-0371,PAT-01794,18,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-27 8:57:24,Saturday,Winter,Early Morning,8,TRUE,High,3,4,1,93,8,14,43,65,Discharged,2
+HOSP-1-20240818-0372,PAT-01797,48,Male,HOSP-1,Springfield General Hospital,Urban,2024-08-18 19:21:41,Sunday,Summer,Evening,19,TRUE,Low,1,4,6,108,20,52,66,138,Discharged,1
+HOSP-1-20240303-0373,PAT-01802,73,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-03 6:49:44,Sunday,Spring,Early Morning,6,TRUE,Critical,4,2,8,50,1,4,8,13,Discharged,5
+HOSP-1-20240411-0374,PAT-01812,42,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-11 15:32:54,Thursday,Spring,Afternoon,15,FALSE,High,3,4,4,75,4,11,29,44,Discharged,3
+HOSP-1-20241105-0375,PAT-01816,50,Male,HOSP-1,Springfield General Hospital,Urban,2024-11-05 7:28:45,Tuesday,Fall,Early Morning,7,FALSE,Critical,4,1,9,136,1,4,16,21,Admitted,5
+HOSP-1-20241211-0376,PAT-01819,90,Male,HOSP-1,Springfield General Hospital,Urban,2024-12-11 3:19:30,Wednesday,Winter,Night,3,FALSE,Low,1,5,4,87,17,73,100,190,Discharged,1
+HOSP-1-20240503-0377,PAT-01823,37,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-03 9:04:26,Friday,Spring,Late Morning,9,FALSE,Low,1,5,8,82,21,62,75,158,Discharged,1
+HOSP-1-20240512-0378,PAT-01824,70,Female,HOSP-1,Springfield General Hospital,Urban,2024-05-12 13:39:56,Sunday,Spring,Afternoon,13,TRUE,Medium,2,3,7,56,6,12,22,40,Admitted,3
+HOSP-1-20240327-0379,PAT-01832,48,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-27 18:07:23,Wednesday,Spring,Evening,18,FALSE,Critical,4,1,1,96,1,2,11,14,Discharged,4
+HOSP-1-20241025-0380,PAT-01850,70,Female,HOSP-1,Springfield General Hospital,Urban,2024-10-25 23:44:31,Friday,Fall,Night,23,FALSE,High,3,3,7,105,6,14,31,51,Discharged,3
+HOSP-1-20240109-0381,PAT-01861,68,Female,HOSP-1,Springfield General Hospital,Urban,2024-01-09 18:58:43,Tuesday,Winter,Evening,18,FALSE,Medium,2,4,9,172,16,28,75,119,Admitted,1
+HOSP-1-20240822-0382,PAT-01866,28,Female,HOSP-1,Springfield General Hospital,Urban,2024-08-22 21:17:09,Thursday,Summer,Night,21,FALSE,Medium,2,3,6,193,9,33,44,86,Discharged,2
+HOSP-1-20240124-0383,PAT-01873,42,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-24 16:42:07,Wednesday,Winter,Afternoon,16,FALSE,Medium,2,3,2,97,20,29,40,89,Discharged,2
+HOSP-1-20240428-0384,PAT-01877,69,Female,HOSP-1,Springfield General Hospital,Urban,2024-04-28 5:26:15,Sunday,Spring,Early Morning,5,TRUE,Medium,2,4,1,166,13,19,41,73,Discharged,2
+HOSP-1-20240928-0385,PAT-01883,72,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-28 10:16:58,Saturday,Fall,Late Morning,10,TRUE,Low,1,5,3,59,18,43,42,103,Discharged,2
+HOSP-1-20240904-0386,PAT-01897,52,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-04 0:10:51,Wednesday,Fall,Night,0,FALSE,Medium,2,4,4,108,23,28,45,96,Admitted,1
+HOSP-1-20240307-0387,PAT-01898,27,Male,HOSP-1,Springfield General Hospital,Urban,2024-03-07 4:25:31,Thursday,Spring,Night,4,FALSE,Critical,4,2,7,191,1,5,20,26,Discharged,4
+HOSP-1-20240316-0388,PAT-01899,39,Female,HOSP-1,Springfield General Hospital,Urban,2024-03-16 4:21:35,Saturday,Spring,Night,4,TRUE,Medium,2,4,3,61,6,30,49,85,Admitted,2
+HOSP-1-20240108-0389,PAT-01900,60,Male,HOSP-1,Springfield General Hospital,Urban,2024-01-08 14:39:00,Monday,Winter,Afternoon,14,FALSE,Low,1,4,3,172,47,96,104,247,Left Without Being Seen,1
+HOSP-1-20240729-0390,PAT-01903,51,Female,HOSP-1,Springfield General Hospital,Urban,2024-07-29 23:03:56,Monday,Summer,Night,23,FALSE,Medium,2,3,2,186,36,56,115,207,Discharged,1
+HOSP-1-20240927-0391,PAT-01905,46,Male,HOSP-1,Springfield General Hospital,Urban,2024-09-27 16:50:50,Friday,Fall,Afternoon,16,FALSE,High,3,4,5,174,6,13,31,50,Admitted,3
+HOSP-1-20240909-0392,PAT-01913,51,Female,HOSP-1,Springfield General Hospital,Urban,2024-09-09 2:18:13,Monday,Fall,Night,2,FALSE,High,3,3,7,122,5,11,48,64,Discharged,3
+HOSP-1-20240208-0393,PAT-01920,90,Male,HOSP-1,Springfield General Hospital,Urban,2024-02-08 22:28:32,Thursday,Winter,Night,22,FALSE,High,3,3,10,183,5,7,25,37,Admitted,4
+HOSP-1-20241121-0394,PAT-01927,40,Female,HOSP-1,Springfield General Hospital,Urban,2024-11-21 1:39:48,Thursday,Fall,Night,1,FALSE,High,3,3,8,142,2,4,10,16,Admitted,4
